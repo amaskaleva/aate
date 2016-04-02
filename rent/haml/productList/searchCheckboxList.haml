@@ -1,0 +1,17 @@
+-checkboxList.each do |item|
+  .i-db
+    -if item["type"] == "only"
+      %label
+        %input.b-checkbox__input.js-check.js-check--only{:type=>"checkbox", :name=>"productIsset", :value=>"#{item['value']}"}
+        %span.b-checkbox__label.b-colored--2b83c7
+          = item["label"]
+    - elsif item["type"]=="disable"
+      %label
+        %input.b-checkbox__input.js-check.disable{:type=>"checkbox", :name=>"productIsset", :value=>"#{item['value']}"}
+        %span.b-checkbox__label.b-colored--2b83c7
+          = item["label"]
+    - else
+      %label
+        %input.b-checkbox__input.js-check{:type=>"checkbox", :name=>"productIsset", :value=>"#{item['value']}"}
+        %span.b-checkbox__label
+          = item["label"]

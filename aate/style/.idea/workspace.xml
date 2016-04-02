@@ -1,0 +1,1674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e04aa047-c5c5-4dd3-81be-f0fd90d986e2" name="Default" comment="" />
+    <ignored path="marketplace_demo.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-accelerator/acceleratorcms/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-accelerator/acceleratorfacades/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-accelerator/acceleratorservices/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-accelerator/acceleratorstorefrontcommons/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/acceleratorwebservicesaddon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/accountsummaryaddon/bin/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/addonsupport/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-cockpit/admincockpit/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-accelerator/alipay/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-backoffice/alipaymentbackoffice/bin/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-optional/amazoncloud/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-data/apparelstore/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-atddtests/assistedserviceatddtests/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/assistedservicefacades/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/assistedservicestorefront/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-atdd/atddengine/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-atdd/atddimpex/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-atdd/atddrunner/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-optional/azurecloud/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/b2bacceleratoraddon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-accelerator/b2bacceleratorfacades/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-accelerator/b2bacceleratorservices/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/b2badmincockpit/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/b2bapprovalprocess/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/b2bcommerce/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-backoffice/b2bcommercebackoffice/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/b2boccaddon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-accelerator/b2bpunchout/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/b2bpunchoutaddon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/synchronousPricing/b2bsappricing/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/availability/b2bsapproductavailability/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/b2ctelcocheckoutaddon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/b2ctelcocockpits/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/b2ctelcofacades/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/b2ctelcoservices/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-data/b2ctelcostore/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/b2ctelcostorefront/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/basecommerce/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-backoffice/basecommercebackoffice/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-content/bmecat/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-content/bmecathmc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/btg/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/btgcockpit/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/c4ccustomer/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-atddtests/c4ccustomeratddtests/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/captchaaddon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-backoffice/chinaacceleratorbackoffice/bin/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-accelerator/chinaacceleratorfacades/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-accelerator/chinaacceleratorservices/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/chinacheckoutaddon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-data/chinastoreelectronics/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/cisavs/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/cisclient/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/cisclienttest/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/cispayment/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-data/cissampledata/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/cissubscription/bin/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-atddtests/cissubscriptionatddtests/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/cistax/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-content/classificationsystems/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-content/classificationsystemshmc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-content/cms2/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-content/cms2lib/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-content/cmscockpit/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-cockpit/cockpit/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/commercefacades/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/commerceorgaddon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/commercesearch/classes/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-atddtests/commercesearchatddtests/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-backoffice/commercesearchbackoffice/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/commercesearchhmc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-data/commercesearchsampledata/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/commerceservices/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-atddtests/commerceservicesatddtests/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-backoffice/commerceservicesbackoffice/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/commercewebservicescommons/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/build/config/common/bin/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-atddtests/configurablebundleatddtests/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/configurablebundlecockpits/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/configurablebundlefacades/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/configurablebundleservices/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-optional/corepluscommons/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-channel/cscockpit/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/customerreview/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/customerticketingaddon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/customerticketingc4cb2bintegration/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/customerticketingc4cintegration/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-atddtests/customerticketingc4cintegrationatddtests/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/customerticketingfacades/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/datahubadapter/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/datahubbackoffice/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-incubator/deltadetection/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-optional/dynamicwebservices/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-data/electronicsstore/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-optional/embeddedserver/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/emsclient/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-atddtests/emsclientatddtests/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/emsui/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-atddtests/entitlementatddtests/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/entitlementcockpits/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/entitlementfacades/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/entitlementservices/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/entitlementstorefront/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-eventtracking/eventtrackingmodel/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-eventtracking/eventtrackingpublisher/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-eventtracking/eventtrackingservices/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/eventtrackingwsaddon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/financialacceleratorstorefront/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-atddtests/financialacceleratorstorefrontatddtests/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/financialcheckout/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/financialcockpits/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/financialfacades/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/financialservices/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-data/financialstore/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-optional/gridfsstorage/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-optional/groovynature/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-optional/hmc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/hybrisanalyticsaddon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-supportability/hybrisdatasupplier/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-supportability/hybrisrootcauseanalysis/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-supportability/hybristransportandchange/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/hyend2/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-content/importcockpit/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-channel/instore/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-data/instoresampledata/bin/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/jiathis/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-optional/ldap/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-content/liveeditaddon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-optional/lucenesearch/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-optional/lucenesearchhmc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-cockpit/mcc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/custom/mcommunicatorclient/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-optional/mediaconversion/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-backoffice/mediaconversionbackoffice/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-channel/mobileoptionals/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-channel/mobileservices/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/oci/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/ondemandcommon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-data/ondemandsampledata/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-backoffice/ordermanagementbackoffice/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/payment/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/platform/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-backoffice/platformbackoffice/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-optional/platformhmc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-optional/platformwebservices/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-data/powertoolsstore/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-print/print/eclipsebin/classes/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-print/printcockpit/eclipsebin/classes/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-print/printhmc/eclipsebin/classes/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-data/printsampledata/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-content/productcockpit/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-content/productcockpitsampledata/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/promotions/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-backoffice/promotionsbackoffice/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-cockpit/reportcockpit/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/samlsinglesignon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/adtreco/sapadtreco/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/adtreco/sapadtrecob2b/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/pointofsale/sapcarcommercefacades/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/pointofsale/sapcarintegration/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/pointofsale/sapcarintegrationaddon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/pointofsale/sapcarintegrationhmc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/synchronousOM/sapcommonbol/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/core/sapcore/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/core/sapcoreaddon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/core/sapcorebol/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/core/sapcoreconfiguration/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/core/sapcoreconfigurationbackoffice/bin/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/core/sapcoreconfigurationhmc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/core/sapcorejco/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/core/sapcorejcorec/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/core/sapcoreodata/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/testsupport/sapcoretest/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/creditCheck/sapcreditcheck/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/creditCheck/sapcreditcheckhmc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/masterdata/sapcustomerb2b/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/masterdata/sapcustomerb2c/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/core/sapmodel/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/core/sapmodelhmc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/asynchronousOM/saporderexchange/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/asynchronousOM/saporderexchangeb2b/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/synchronousOM/sapordermgmtb2bfacades/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/synchronousOM/sapordermgmtb2bservices/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/synchronousOM/sapordermgmtbol/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/synchronousOM/sapordermgmtcfgfacades/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/synchronousOM/sapordermgmthmc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/synchronousOM/sapordermgmtservices/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/pointofsale/sappostransactionaddon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/synchronousPricing/sappricing/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/synchronousPricing/sappricingbol/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/synchronousPricing/sappricinghmc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/synchronousPricing/sappricingproductcarouseladdon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/sapprodreco/sapprodrecoaddon/bin/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/sapprodreco/sapprodrecocommon/bin/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/availability/sapproductavailability/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/availability/sapproductavailabilityhmc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/productconfig/sapproductconfigb2b/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/productconfig/sapproductconfigbackoffice/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/productconfig/sapproductconfigfacades/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/productconfig/sapproductconfighmc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/productconfig/sapproductconfigmodel/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/productconfig/sapproductconfigruntimeinterface/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/productconfig/sapproductconfigruntimessc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/productconfig/sapproductconfigservices/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/masterdata/sapproducthmc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/sapprodreco/sapproductrecommendation/target/classes/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-accelerator/savedorderforms/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/savedorderformsoccaddon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-optional/scalanature/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/secureportaladdon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/solrfacetsearch/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-backoffice/solrfacetsearchbackoffice/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/solrfacetsearchhmc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/solrserver/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-optional/springintegrationlibs/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-atddtests/subscriptionatddtests/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/subscriptioncockpits/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/subscriptionfacades/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/subscriptionservices/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/subscriptionserviceshmc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/subscriptionstorefront/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/ticketsystem/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-backoffice/timedaccesspromotionsbackoffice/bin/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-accelerator/timedaccesspromotionsfacades/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-accelerator/timedaccesspromotionsservices/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-accelerator/timedaccesspromotionsserviceshmc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/timedaccesspromotionsstorefront/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-optional/tomcatembeddedserver/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/custom/vianor/vianorbackoffice/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/custom/vianor/vianorcockpits/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/custom/vianor/vianorcore/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/custom/vianor/vianorfacades/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/custom/vianor/vianorfulfilmentprocess/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/custom/vianor/vianorinitialdata/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/custom/vianor/vianorropintegration/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/custom/vianor/vianorstorefront/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/custom/vianor/vianortest/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-optional/virtualjdbc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/voucher/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-backoffice/voucherbackoffice/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/warehousing/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-backoffice/warehousingbackoffice/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/wishlist/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-atddtests/xyformsatddtests/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-backoffice/xyformsbackoffice/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/xyformscockpits/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/xyformsfacades/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/xyformssamples/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/xyformsservices/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-addon/xyformsstorefrontcommons/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-commerce/xyformsweb/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-incubator/y2ysync/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-incubator/y2ysyncbackoffice/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-incubator/y2ysyncdemoelectronics/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-incubator/y2ysynchmc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-incubator/yaasconnect/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-template/yacceleratorcockpits/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-template/yacceleratorcore/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-template/yacceleratorfacades/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-template/yacceleratorfulfilmentprocess/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-template/yacceleratorinitialdata/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-template/yacceleratorordermanagement/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-template/yacceleratorstorefront/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-template/yacceleratortest/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-template/yaddon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-template/yatddtests/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-backoffice/ybackoffice/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-template/ychinaacceleratorstorefront/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-cockpit/ycockpit/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-template/ycommercewebservices/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-template/ycommercewebserviceshmc/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-template/ycommercewebservicestest/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-template/yempty/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-optional/ygroovy/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-template/yinstoreinitialdata/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-template/yoccaddon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/asynchronousOM/ysaporderfulfillment/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/synchronousOM/ysapordermgmtb2baddon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-integration/sap/productconfig/ysapproductconfigb2baddon/eclipsebin/notused/" />
+    <ignored path="D:/work/marketplace_demo/hybris/bin/ext-platform-optional/yscala/eclipsebin/notused/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="marketplace_demo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="TyreSelectorComponentController.java" pinned="false" current-in-tab="false">
+        <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/src/com/novardis/marketplace/storefront/controllers/cms/TyreSelectorComponentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.481482">
+              <caret line="223" column="21" selection-start-line="223" selection-start-column="21" selection-end-line="223" selection-end-column="21" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.impex" pinned="false" current-in-tab="false">
+        <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1core/resources/marketplace1core/import/common/update.impex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <folding>
+                <element signature="e#964#970#0" expanded="true" />
+                <element signature="e#971#982#0" expanded="true" />
+                <element signature="e#988#999#0" expanded="true" />
+                <element signature="e#1008#1019#0" expanded="true" />
+                <element signature="e#1119#1132#0" expanded="true" />
+                <element signature="e#1140#1153#0" expanded="true" />
+                <element signature="e#1177#1245#0" expanded="true" />
+                <element signature="e#971#982#0" expanded="true" />
+                <element signature="e#1293#1304#0" expanded="true" />
+                <element signature="e#1020#1033#0" expanded="true" />
+                <element signature="e#1253#1275#0" expanded="true" />
+                <element signature="e#1979#1990#0" expanded="true" />
+                <element signature="e#1305#1323#0" expanded="true" />
+                <element signature="e#2156#2167#0" expanded="true" />
+                <element signature="e#2173#2184#0" expanded="true" />
+                <element signature="e#2350#2363#0" expanded="true" />
+                <element signature="e#2350#2363#0" expanded="true" />
+                <element signature="e#2350#2363#0" expanded="true" />
+                <element signature="e#2634#2647#0" expanded="true" />
+                <element signature="e#2654#2667#0" expanded="true" />
+                <marker date="1459535560994" expanded="true" signature="1020:1033" placeholder="false" />
+                <marker date="1459535560994" expanded="true" signature="2195:2202" placeholder="en" />
+                <marker date="1459535560994" expanded="true" signature="2679:2688" placeholder="en" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cms-content.impex" pinned="false" current-in-tab="false">
+        <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/vianor/vianorinitialdata/resources/vianorinitialdata/import/sampledata/contentCatalogs/vianorContentCatalog/cms-content.impex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jars.js" pinned="false" current-in-tab="false">
+        <entry file="file://D:/work/marketplace_demo/hybris/bin/platform/ext/hac/web/webroot/static/js/platform/jars.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="acc.accountpayment.js" pinned="false" current-in-tab="false">
+        <entry file="file://D:/work/marketplace_demo/hybris/bin/ext-addon/accountsummaryaddon/acceleratoraddon/web/webroot/_ui/desktop/common/js/acc.accountpayment.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="245" column="64" selection-start-line="245" selection-start-column="64" selection-end-line="245" selection-end-column="64" />
+              <folding>
+                <marker date="1452865910000" expanded="true" signature="6697:6708" placeholder="..." />
+                <marker date="1452865910000" expanded="true" signature="6752:6763" placeholder="..." />
+                <marker date="1452865910000" expanded="true" signature="6807:6818" placeholder="..." />
+                <marker date="1452865910000" expanded="true" signature="6893:6904" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="acc.storefinder.js" pinned="false" current-in-tab="false">
+        <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/webroot/_ui/desktop/common/js/acc.storefinder.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="227" column="27" selection-start-line="227" selection-start-column="27" selection-end-line="227" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="acc.userregion.js" pinned="false" current-in-tab="false">
+        <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/webroot/_ui/desktop/common/js/acc.userregion.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+        <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/resources/marketplace1storefront/scss/sass/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6046099">
+              <caret line="135" column="7" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="acc.userregion.js" pinned="false" current-in-tab="false">
+        <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/vianor/vianorstorefront/web/webroot/_ui/desktop/common/js/acc.userregion.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenericViewCMSComponentRenderer.java" pinned="false" current-in-tab="false">
+        <entry file="file://D:/work/marketplace_demo/hybris/bin/ext-accelerator/acceleratorcms/src/de/hybris/platform/acceleratorcms/component/renderer/impl/GenericViewCMSComponentRenderer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/work/marketplace_demo" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1cockpits/resources/marketplace1cockpits/cmscockpit/spring/cmscockpit-services.xml" />
+        <option value="D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/webroot/WEB-INF/views/desktop/pages/layout/landingLayout2Page.jsp" />
+        <option value="D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/webroot/WEB-INF/views/desktop/cms/tyreselectorcomponent.jsp" />
+        <option value="D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/src/com/novardis/marketplace/storefront/controllers/cms/TyreSelectorComponentController.java" />
+        <option value="D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1facades/src/com/novardis/marketplace/facades/solr/populators/MarketplaceCategoryFacetFirstLevelSubCategoriesFilterPopulator.java" />
+        <option value="D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/resources/marketplace1storefront/scss/sass/include/_homepage.scss" />
+        <option value="D:/work/marketplace_demo/hybris/bin/ext-accelerator/acceleratorcms/src/de/hybris/platform/acceleratorcms/component/renderer/impl/GenericViewCMSComponentRenderer.java" />
+        <option value="D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1core/resources/marketplace1core/import/common/update.impex" />
+        <option value="D:/work/marketplace_demo/hybris/bin/custom/vianor/vianorinitialdata/resources/vianorinitialdata/import/sampledata/contentCatalogs/vianorContentCatalog/cms-content.impex" />
+        <option value="D:/work/marketplace_demo/hybris/bin/custom/vianor/vianorstorefront/web/webroot/_ui/desktop/common/js/acc.userregion.js" />
+        <option value="D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/webroot/_ui/desktop/common/js/acc.userregion.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Assignment issuesGroovy</id>
+          </State>
+          <State>
+            <id>Assignment issuesJava</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marketplace_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marketplace_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marketplace1core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marketplace_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marketplace1core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marketplace_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marketplace1core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marketplace1core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marketplace_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marketplace1core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marketplace1core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="import" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marketplace_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marketplace1core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marketplace1core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="import" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1facades" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.14257812" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\marketplace_demo\hybris\bin\custom\marketplace1\marketplace1core\resources\marketplace1core\import\images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Remote.Unnamed">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="8000" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8000" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Remote.Unnamed" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e04aa047-c5c5-4dd3-81be-f0fd90d986e2" name="Default" comment="" />
+      <created>1459527663518</created>
+      <option name="number" value="Default" />
+      <updated>1459527663518</updated>
+      <workItem from="1459527675715" duration="973000" />
+      <workItem from="1459528673047" duration="2205000" />
+      <workItem from="1459531240471" duration="5628000" />
+    </task>
+    <task id="LOCAL-00001" summary="novardis: added logo; changed tyreSelectorComponentController; fixed error of different width of regions;">
+      <created>1459536811218</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1459536811218</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8806000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32953367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2818653" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="novardis: added logo; changed tyreSelectorComponentController; fixed error of different width of regions;" />
+    <option name="LAST_COMMIT_MESSAGE" value="novardis: added logo; changed tyreSelectorComponentController; fixed error of different width of regions;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1cockpits/src/com/novardis/marketplace/cockpits/cmscockpit/browser/filters/DesktopUiExperienceBrowserFilter.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://D:/work/marketplace_demo/hybris/bin/platform/bootstrap/gensrc/de/hybris/platform/acceleratorcms/model/components/JspIncludeComponentModel.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/work/marketplace_demo/hybris/bin/platform/tomcat/lib/jasper.jar!/org/apache/jasper/runtime/PageContextImpl.class</url>
+          <line>532</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="component instanceof TyreSelectorComponentModel" language="JAVA" custom="com.novardis.marketplace.core.model.TyreSelectorComponentModel" />
+          <url>file://D:/work/marketplace_demo/hybris/bin/ext-accelerator/acceleratorcms/src/de/hybris/platform/acceleratorcms/component/renderer/impl/DefaultCMSComponentRendererRegistry.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="component instanceof TyreSelectorComponentModel" language="JAVA" custom="com.novardis.marketplace.core.model.TyreSelectorComponentModel" />
+          <url>file://D:/work/marketplace_demo/hybris/bin/ext-accelerator/acceleratorcms/src/de/hybris/platform/acceleratorcms/component/renderer/impl/DefaultCMSComponentRendererRegistry.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/src/com/novardis/marketplace/storefront/web/view/UiExperienceViewResolver.java</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/src/com/novardis/marketplace/storefront/web/view/UiExperienceViewResolver.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/src/com/novardis/marketplace/storefront/controllers/cms/TyreSelectorComponentController.java</url>
+          <line>234</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="39" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1cockpits/src/com/novardis/marketplace/cockpits/cmscockpit/services/impl/UiExperienceCmsSearchProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5168919">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1cockpits/resources/marketplace1cockpits/cmscockpit/spring/cmscockpit-services.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.592592">
+          <caret line="50" column="72" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="58" selection-start-line="84" selection-start-column="51" selection-end-line="84" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1cockpits/src/com/novardis/marketplace/cockpits/cmscockpit/browser/filters/DesktopUiExperienceBrowserFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+          <folding>
+            <element signature="e#981#982#0" expanded="false" />
+            <element signature="e#1059#1060#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/src/com/novardis/marketplace/storefront/interceptors/beforecontroller/DeviceDetectionBeforeControllerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/src/com/novardis/marketplace/storefront/interceptors/beforeview/UiExperienceMetadataViewHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="66" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/platform/bootstrap/gensrc/com/novardis/marketplace/core/model/TyreSelectorComponentModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/platform/bootstrap/gensrc/de/hybris/platform/cms2/model/contents/components/SimpleCMSComponentModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+          <folding>
+            <element signature="e#2243#2244#0" expanded="true" />
+            <element signature="e#2257#2258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/platform/bootstrap/gensrc/de/hybris/platform/cms2/model/contents/components/AbstractCMSComponentModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="101" column="10" selection-start-line="101" selection-start-column="10" selection-end-line="101" selection-end-column="10" />
+          <folding>
+            <element signature="e#5301#5302#0" expanded="true" />
+            <element signature="e#5315#5316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/platform/bootstrap/gensrc/de/hybris/platform/core/model/ItemModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="11" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
+          <folding>
+            <element signature="e#3381#3382#0" expanded="true" />
+            <element signature="e#3395#3396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/platform/bootstrap/gensrc/de/hybris/platform/cms2/model/contents/CMSItemModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+          <folding>
+            <element signature="e#2325#2326#0" expanded="true" />
+            <element signature="e#2339#2340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/platform/bootstrap/gensrc/de/hybris/platform/acceleratorcms/model/components/JspIncludeComponentModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.24138">
+          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+          <folding>
+            <element signature="e#1880#1881#0" expanded="false" />
+            <element signature="e#1894#1895#0" expanded="false" />
+            <element signature="e#4119#4120#0" expanded="false" />
+            <element signature="e#4179#4180#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/webroot/WEB-INF/views/desktop/pages/layout/landingLayout2Page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.153846">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/webroot/WEB-INF/common/tld/cmstags.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="117" column="66" selection-start-line="117" selection-start-column="66" selection-end-line="117" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1core/src/com/novardis/marketplace/core/cms/impl/MarketplaceCMSPageSlotComponentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/ext-accelerator/acceleratorcms/src/de/hybris/platform/acceleratorcms/component/renderer/CMSComponentRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4544025">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/work/marketplace_demo/hybris/bin/platform/tomcat/lib/jsp-api.jar!/javax/servlet/jsp/PageContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/work/marketplace_demo/hybris/bin/platform/tomcat/lib/jasper.jar!/org/apache/jasper/runtime/JspRuntimeLibrary.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="678" column="20" selection-start-line="678" selection-start-column="20" selection-end-line="678" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/ext-accelerator/acceleratorcms/src/de/hybris/platform/acceleratorcms/component/slot/impl/DefaultCMSPageSlotComponentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="309" column="9" selection-start-line="309" selection-start-column="9" selection-end-line="309" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/work/marketplace_demo/hybris/bin/platform/tomcat/lib/jasper.jar!/org/apache/jasper/runtime/PageContextImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="528" column="0" selection-start-line="528" selection-start-column="0" selection-end-line="528" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/src/com/novardis/marketplace/storefront/controllers/ControllerConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1034484">
+          <caret line="79" column="34" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/src/com/novardis/marketplace/storefront/web/view/UiExperienceViewResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8396226">
+          <caret line="120" column="13" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/ext-accelerator/acceleratorcms/src/de/hybris/platform/acceleratorcms/jalo/components/JspIncludeComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3474843">
+          <caret line="29" column="80" selection-start-line="29" selection-start-column="80" selection-end-line="29" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/ext-accelerator/acceleratorcms/src/de/hybris/platform/acceleratorcms/component/renderer/impl/DefaultCMSComponentRendererRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="26" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#2692#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/ext-accelerator/acceleratorcms/src/de/hybris/platform/acceleratorcms/component/renderer/impl/CachingCMSComponentRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/ext-accelerator/acceleratorcms/src/de/hybris/platform/acceleratorcms/tags2/CMSComponentTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="323" column="0" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#8883#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2360#2361#0" expanded="false" />
+            <element signature="e#2390#2391#0" expanded="false" />
+            <element signature="e#2463#2464#0" expanded="false" />
+            <element signature="e#2505#2506#0" expanded="false" />
+            <element signature="e#2831#2832#0" expanded="false" />
+            <element signature="e#2869#2870#0" expanded="false" />
+            <element signature="e#7539#7540#0" expanded="false" />
+            <element signature="e#7563#7564#0" expanded="false" />
+            <element signature="e#8523#8524#0" expanded="false" />
+            <element signature="e#8552#8553#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1core/gensrc/com/novardis/marketplace/core/constants/GeneratedMarketplace1CoreConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1core/src/com/novardis/marketplace/core/constants/Marketplace1CoreConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.4827585">
+          <caret line="117" column="53" selection-start-line="117" selection-start-column="53" selection-end-line="117" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/vianor/vianorcore/src/ru/vianor/core/constants/VianorCoreConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="120" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/vianor/vianorstorefront/web/src/ru/vianor/storefront/controllers/cms/TyreSelectorComponentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="93" column="40" selection-start-line="93" selection-start-column="40" selection-end-line="93" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/webroot/WEB-INF/views/desktop/cms/tyreselectorcomponent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.538462">
+          <caret line="36" column="77" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1core/src/com/novardis/marketplace/core/tyresize/service/MarketplaceCarsTyreSizeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/vianor/vianorcore/resources/vianorcore/import/releases/release1.0/staged/sample-data-cms-content.impex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.7586207">
+          <caret line="42" column="54" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1core/resources/marketplace1core/import/images/logo_novardis.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/webroot/_ui/desktop/common/marketplace/images/nt.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/vianor/vianorinitialdata/resources/vianorinitialdata/import/sampledata/contentCatalogs/vianorContentCatalog/cms-content_ru.impex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="152.2963">
+          <caret line="256" column="58" selection-start-line="256" selection-start-column="58" selection-end-line="256" selection-end-column="58" />
+          <folding>
+            <element signature="e#56740#56751#0" expanded="false" />
+            <element signature="e#56757#56768#0" expanded="false" />
+            <element signature="e#56798#56808#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/vianor/vianorcore/resources/vianorcore/import/releases/release1.0/online/sample-data-cms-content.impex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3322034">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1facades/src/com/novardis/marketplace/facades/solr/populators/MarketplaceCategoryFacetFirstLevelSubCategoriesFilterPopulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.296296">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/vianor/vianorcore/resources/vianorcore/import/releases/release1.0/images/banners/homepage/hg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/webroot/WEB-INF/views/desktop/cms/marketplacestorefindercomponent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/resources/marketplace1storefront/scss/sass/include/_homepage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.576923">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/src/com/novardis/marketplace/storefront/controllers/cms/TyreSelectorComponentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.481482">
+          <caret line="223" column="21" selection-start-line="223" selection-start-column="21" selection-end-line="223" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/ext-accelerator/acceleratorcms/src/de/hybris/platform/acceleratorcms/component/renderer/impl/GenericViewCMSComponentRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1core/resources/marketplace1core/import/common/update.impex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#964#970#0" expanded="true" />
+            <element signature="e#971#982#0" expanded="true" />
+            <element signature="e#988#999#0" expanded="true" />
+            <element signature="e#1008#1019#0" expanded="true" />
+            <element signature="e#1119#1132#0" expanded="true" />
+            <element signature="e#1140#1153#0" expanded="true" />
+            <element signature="e#1177#1245#0" expanded="true" />
+            <element signature="e#971#982#0" expanded="true" />
+            <element signature="e#1293#1304#0" expanded="true" />
+            <element signature="e#1020#1033#0" expanded="true" />
+            <element signature="e#1253#1275#0" expanded="true" />
+            <element signature="e#1979#1990#0" expanded="true" />
+            <element signature="e#1305#1323#0" expanded="true" />
+            <element signature="e#2156#2167#0" expanded="true" />
+            <element signature="e#2173#2184#0" expanded="true" />
+            <element signature="e#2350#2363#0" expanded="true" />
+            <element signature="e#2350#2363#0" expanded="true" />
+            <element signature="e#2350#2363#0" expanded="true" />
+            <element signature="e#2634#2647#0" expanded="true" />
+            <element signature="e#2654#2667#0" expanded="true" />
+            <marker date="1459535560994" expanded="true" signature="1020:1033" placeholder="false" />
+            <marker date="1459535560994" expanded="true" signature="2195:2202" placeholder="en" />
+            <marker date="1459535560994" expanded="true" signature="2679:2688" placeholder="en" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/vianor/vianorinitialdata/resources/vianorinitialdata/import/sampledata/contentCatalogs/vianorContentCatalog/cms-content.impex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/platform/ext/hac/web/webroot/static/js/platform/jars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/ext-addon/accountsummaryaddon/acceleratoraddon/web/webroot/_ui/desktop/common/js/acc.accountpayment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="245" column="64" selection-start-line="245" selection-start-column="64" selection-end-line="245" selection-end-column="64" />
+          <folding>
+            <marker date="1452865910000" expanded="true" signature="6697:6708" placeholder="..." />
+            <marker date="1452865910000" expanded="true" signature="6752:6763" placeholder="..." />
+            <marker date="1452865910000" expanded="true" signature="6807:6818" placeholder="..." />
+            <marker date="1452865910000" expanded="true" signature="6893:6904" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/webroot/_ui/desktop/common/js/acc.storefinder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="227" column="27" selection-start-line="227" selection-start-column="27" selection-end-line="227" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/vianor/vianorstorefront/web/webroot/_ui/desktop/common/js/acc.userregion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/web/webroot/_ui/desktop/common/js/acc.userregion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/resources/marketplace1storefront/scss/sass/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6046099">
+          <caret line="135" column="7" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>marketplace1facades</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Common libs</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

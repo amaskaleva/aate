@@ -1,0 +1,70 @@
+%p.b-contentTitle--small
+  Выберите способ получения товара
+.b-table--checkout__item
+  %p
+    %span.b-table--checkout__check
+      %input.js-showAccount__bank{:type=> "radio", :name=>"company", :value=>"1"}
+    %span.b-colored--000
+      %span.i-fs14
+        Безналичный -
+      предоплата
+  %p.b-table--checkout__content
+    (отгрузка после предварительной оплаты заказа)
+.b-table--checkout__item
+  %p
+    %span.b-table--checkout__check
+      %input.js-showAccount__bank{:type=> "radio", :name=>"company", :value=>"1"}
+    %span.b-colored--000
+      %span.i-fs14
+        Безналичный -
+      с отсрочкой платежа
+  %p.b-table--checkout__content
+    (отгрузка без предварительной оплаты заказа)
+.b-table--checkout__item
+  %p
+    %span.b-table--checkout__check
+      %input{:type=> "radio", :name=>"company", :value=>"1"}
+    %span.b-colored--000
+      %span.i-fs14
+        Наличными в кассу
+  %p.b-table--checkout__content
+    (Кассовый чек, Товарная накладная «Торг-12» и Счет-фактура (в этом случае потребуется доверенность по форме М-2 либо заверить документы печатью организации)
+
+.b-table--checkout__item
+  %p
+    %span.b-table--checkout__check
+      %input.js-courier__checkbox{:type=> "radio", :name=>"company", :value=>"1"}
+    %span.b-colored--000
+      %span.i-fs14
+        Наличными курьеру,
+      доставка 0 руб
+  %p.b-table--checkout__content
+    (Товарный и кассовый чек)
+
+.b-table--checkout__item
+  %p
+    %span.b-table--checkout__check
+      %input{:type=> "radio", :name=>"company", :value=>"1"}
+    %span.b-colored--000
+      %span.i-fs14
+        Онлайн платеж,
+      доставка 0 руб
+  %p.b-table--checkout__content
+    (банковскими картами Visa и Mastercard, электронными деньгами WebMoney и Яндекс.Деньги, через уличные терминалы мгновенной оплаты QIWI, Элекснет и Евросеть, интернет-банкинг)
+  .b-table--checkout__content.i-pt5
+    %i.b-icn.b-icn--paymentType--visa
+    %i.b-icn.b-icn--paymentType--1
+    %i.b-icn.b-icn--paymentType--2
+    %i.b-icn.b-icn--paymentType--3
+    %i.b-icn.b-icn--paymentType--4
+    %i.b-icn.b-icn--paymentType--5
+
+.b-table--checkout__item
+  %p
+    %span.b-table--checkout__check
+      %input{:type=> "radio", :name=>"company", :value=>"1"}
+    %span.b-colored--000
+      %span.i-fs14
+        Наличными в кассу
+  %p.b-table--checkout__content
+    (Товарный и Кассовый чек)

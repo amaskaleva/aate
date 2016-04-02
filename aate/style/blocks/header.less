@@ -1,0 +1,146 @@
+.header{
+  background: @color-header-bg;
+  font-family: @font-family;
+
+  .site-title h1 a,
+  .site-description, .site-description > *{
+    //font-family: @font-family;
+    font-weight: normal;
+    color: @color-header-title;
+    margin: 0;
+    padding: 0;
+  }
+  .site-description{
+    margin-bottom: 10px;
+  }
+
+  @media @mobileDesktop{
+    .my-image{
+      height: auto !important;
+    }
+  }
+  @media @mobile {
+    width: auto;
+    .max-header-width{
+      display: block;
+    }
+    .header-text-wrap, .header-sidebar-components{
+      width: 100%;
+      display: block;
+    }
+    .header-text-wrap{
+      margin-top: 20px;
+    }
+    .header-sidebar-components{
+      .widget{
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .nav-container.top-navigation{
+        & .max-width{
+          padding: 0 !important;
+        }
+        .toggle{
+          .sidebar-toggle, .menu-toggle{
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+  .site-title{
+    > *{
+      padding: 0;
+      margin: 0;
+    }
+    h1{
+      &, & a{
+        letter-spacing: 3px;
+        //line-height: 68px;
+        line-height: 80px;
+        font-size: 85px;
+        text-transform: uppercase;
+
+        #mixins > .noTextWrap();
+
+        &:hover{
+          text-decoration: none;
+          color: @color-menu-text;
+        }
+      }
+    }
+
+    @media @tablet {
+      line-height: 50px;
+      h1 {
+        line-height: normal;
+        a {
+          //font-size: 53px !important;
+          //line-height: 56px;
+        }
+      }
+    }
+
+    @media @mobileTablet {
+      line-height: 40;
+      h1{
+        a{
+          //font-size: 38px !important;
+          //line-height: 43px;
+        }
+      }
+    }
+
+    @media @mobile {
+      a{
+        //font-size: 45px !important;
+        //line-height: 48px;
+      }
+    }
+  }
+
+  .site-description{
+    &, & >*{
+      line-height: 20px;
+      font-size: 20px;
+      margin-left: -1px;
+      letter-spacing: 3px;
+      #mixins > .noTextWrap();
+    }
+
+    @media @tablet {
+      display: block;
+      font-size: 14px;
+      &, & > *{
+        line-height: 20px;
+        font-size: 20px;
+      }
+    }
+
+    @media @mobile {
+      &, & >*{
+        line-height: 12px;
+      }
+    }
+  }
+  &-sidebar-components{
+    width: 69%;
+  }
+
+  & > .widget{
+    padding-bottom: 0;
+  }
+}
+.head-wrapper{
+  background: none;
+}
+.header-text-wrap{
+  width: 30%;
+}
+.sidebar-header{
+  margin-top: 15px;
+  width: 100%;
+}
+.site-description {
+  display: block;
+}

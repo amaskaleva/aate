@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Common libs">
+    <CLASSES>
+      <root url="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://D:/work/marketplace_demo/hybris/bin/custom/marketplace1/marketplace1storefront/lib" recursive="true" />
+  </library>
+</component>

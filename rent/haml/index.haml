@@ -1,0 +1,2 @@
+- content = File.read("content/baseContent.html")
+= Haml::Engine.new(File.read("mainTemplate.haml")).render(parent, :content => content)

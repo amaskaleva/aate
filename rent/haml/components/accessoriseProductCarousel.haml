@@ -1,0 +1,5 @@
+.b-quickSell.b-loyaltyProducts
+  .b-quickSell--fullWidth.js-productinfo--wrapper
+    .b-menu--horizontal.b-gallery--fullWidth.b-gallery__content.js-simple-gallery
+      -(1..5).each do |i|
+        = Haml::Engine.new(File.read("components/accessoriseProduct.haml")).render

@@ -1,0 +1,15 @@
+- @bannerlist = {"connection" => "Заказать<br> 8(495)651-6511",
+  "garanties" => "Гарантии",
+  "sales" => "Скидки",
+  "delivery" => "Доставка<br> 0р.",
+  "time" => "Доставка<br> 24ч.",
+  "return" => "Бесплатный<br> возврат",
+  "payservice" => "Платежный<br> сервис",
+  "offers" => "Акции"}
+
+%div{"class" => "b-table b-table--fixed b-features"}
+  -@bannerlist.each do |key, value|
+    %a.b-link--inherit.b-table__cell.b-features__item{"href"=>"#"}
+      %img.b-features__item__img{"src"=>"images/features/#{key}FooterBanner.png"}
+      %span.b-features__item__label
+        #{value}

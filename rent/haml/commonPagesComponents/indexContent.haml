@@ -1,0 +1,20 @@
+- @newContent = Haml::Engine.new(File.read("components/productCarousel.haml")).render
+
+.b-advertisment
+  Покупайте
+  %a.b-link{'href'=>"#"} товары для дома со скидкой организации
+  в которой Вы работаете
+  %img.b-advertisment__arrow{'src'=>"images/arrowRight.png", 'alt'=>"", 'width'=>"10", 'height'=>"18"}
+.b-banners
+  .b-banners__banner
+    %img{'src'=>"images/temp/temp__banner.gif", 'alt'=>"", 'width'=>"714", 'height'=>"270"}
+  %ul.b-menu--horizontal.b-banners__switch
+    %li.b-menu__item.b-banners__switch__item Подарок по купону
+    %li.b-menu__item.b-banners__switch__item.b-banners__switch__item--active Подарок по купону
+    %li.b-menu__item.b-banners__switch__item Подарок по купону
+    %li.b-menu__item.b-banners__switch__item Подарок по купону
+    %li.b-menu__item.b-banners__switch__item Подарок по купону
+
+= Haml::Engine.new(File.read("components/economyProductCarousel.haml")).render(parent, :content => @newContent)
+= Haml::Engine.new(File.read("components/quickSellProductCarousel.haml")).render(parent, :content => @newContent)
+= File.read("components/newProductsAdv.haml")

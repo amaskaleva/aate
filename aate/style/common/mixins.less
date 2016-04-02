@@ -1,0 +1,188 @@
+#mixins {
+
+  .arrowToBottom(@height, @width, @color:#ffffff){
+    position: absolute;
+    border-color: @color transparent transparent transparent;
+    border-style: solid;
+    border-width:  @height @width 0px @width;
+    top: @height;
+    display: block;
+    width:0px;
+    height:0px;
+    content: '';
+  }
+
+  .arrowToTop(@height, @width, @color:#ffffff){
+    position: absolute;
+    border-color: transparent transparent @color transparent;
+    border-style: solid;
+    border-width: 0px @width @height @width;
+    top: -@height + 1;
+    display: block;
+    width:0px;
+    height:0px;
+    content: '';
+  }
+
+  .arrowToLeft(@height, @width, @color:#ffffff){
+    right: 100%;
+    top: @width + 5;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+
+    border-color: rgba(194, 225, 245, 0);
+    border-right-color: @color;
+    border-width: @height;
+  }
+  .arrowToRight(@height, @width, @color:#ffffff){
+    left: -1px;
+    top: @width + 5;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+
+    border-color: rgba(194, 225, 245, 0);
+    border-left-color: @color;
+    border-width: @height;
+  }
+
+  .borderLine(){
+    border: 1px solid #e7e7e7;
+    border-top: 1px solid #c0c0c0;
+    border-left: 1px solid #c0c0c0;
+    border-right: 1px solid #f0f0f0;
+  }
+
+  .blockSquare(@width: 10px){
+    width: @width;
+    height: @width;
+    display: block;
+  }
+
+  .column2Table(){
+    width:@b-column-width-2--small;
+    display: inline-block;
+    margin-bottom: @b-column-marginRight;
+    margin-right: @b-column-marginRight;
+    &:nth-child(3n){
+      margin-right: 0;
+    }
+    &:nth-last-child(-n+3){
+      margin-bottom: 13px;
+    }
+  }
+
+  .imgCenter(){
+    margin: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .bottomDotted(){
+    border-bottom: 1px dotted #83818f ;
+  }
+
+  .noTextWrap(){
+    text-wrap: none;
+    white-space: nowrap;
+    word-wrap: normal;
+  }
+  .textWrap(){
+    text-wrap: normal;
+    white-space: normal;
+    word-wrap: normal;
+  }
+  .textBreak(){
+    text-wrap: normal;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .TextEllipsis(){
+    #mixins > .noTextWrap();
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .infoWindow(@width: 300px, @minwidth:0, @maxwidth:0){
+    #css3 > .border-radius(5px);
+    #css3 > .box-shadow(0 0 5px #b3b3b3);
+    #mixins > .backgroundColor(#fff);
+    border: 1px solid #d0d0d0;
+    color: @color-666;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+    top: 0;
+    & when(@width > 0){
+      width: @width;
+    }
+    & when(@minwidth > 0){
+      min-width: @minwidth;
+    }
+    & when(@maxwidth > 0){
+      max-width: @maxwidth;
+    }
+    z-index: 3;
+
+    &:after{
+      #mixins > .arrowToTop(12px, 24px, #ffffff);
+      content: '';
+      left:@width / 2 - 22px;
+      margin-left: -5px;
+
+    }
+    &:before{
+      #mixins > .arrowToTop(12px, 24px, #d0d0d0);
+      content: '';
+      top: -12px;
+      left:@width / 2 - 22px;
+      margin-left: -5px;
+
+    }
+  }
+
+  .blinkStyle() {
+    color: #0078c3;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background: none;
+  }
+
+  .backgroundColor(@color){
+    filter: none;//~"progid:DXImageTransform.Microsoft.gradient(enabled=false)";
+    background: @color;
+  }
+
+  .ie-nthChild(@startText:'', @childClass:'', @childCount:1, @styleText: '#fff') {
+    @nthTop: ~"@{startText}:first-child";
+
+    .ie-nth-child--iteration(@childCount, @styleText, @nth) when (@childCount > 1){
+      @nth1: ~"@{nth} + *";
+      .ie-nth-child--iteration(@childCount - 1, @styleText, @nth1);
+    }
+    .ie-nth-child--iteration(1, @styleText, @nth){
+      @nth1: ~"@{nth} @{childClass}";
+      @{nth1}{
+        background: ~"@{styleText}";
+      }
+    };
+
+    .ie-nth-child--iteration(@childCount, @styleText, @nthTop);
+  }
+}

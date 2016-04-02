@@ -1,0 +1,112 @@
+<div class="b-table--checkout__block js-checkout__paymentType--additional__block">
+    <div class="b-table--checkout__item">
+        <label>
+            <span class="b-table--checkout__check i-text-right">
+              <input type="checkbox" name="gifts" value="1" class="b-checkbox__input js-giftcard__checkbox js-checkout__paymentType--additional__chbx">
+              <span class="b-checkbox__label"></span>
+            </span>
+            <span class="b-checkbox__label">Оплата подарочными картами</span>
+        </label>
+        <div class="b-help js-help--show i-dib">
+            <i class="b-icn b-icn--question i-vam"></i>
+
+            <div class="b-help__info--bottom js-help--window" style="display: none;">
+                <span class="js-help--close b-icn b-btn--close">&nbsp;</span>
+                Подарочные карты принимаются к оплате только от физических лиц или при оформлении личного заказа. Существует возможность доплаты наличными средствами. Подробнее о правилах использования подарочных карт (ПК)"Комус" вы сможете узнать здесь
+            </div>
+        </div>
+    </div>
+    <div class="b-table--checkout__item js-giftcard__item table b-col--3--2">
+        <table class="js-giftcard__table b-table b-table--plain i-w-f b-colored--333">
+            <thead>
+                <tr class="">
+                    <th class="b-table__th" style="width: 150px">Номер карты</th>
+                    <th class="b-table__th" style="">Код</th>
+                    <th class="b-table__th" style="width:23%">Доступно</th>
+                    <th class="b-table__th" style="width:23%">Резерв по заказу</th>
+                    <th class="b-table__th" style="width:50px">Удалить</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="b-table__tr js-giftcard__row" data-giftcard='{"count1":"123", "count2":"123"}'>
+                    <td class="b-table__td"><input type="text" class="b-form__inputText i-w-f js-giftcard__number" value="0000000000000" placeholder="Номер карты" data-index="1"/></td>
+                    <td class="b-table__td"><input type="text" class="b-form__inputText i-w-f js-giftcard__code" value="333333" placeholder="Код карты" /></td>
+                    <td class="b-table__td js-giftcard__error">123</td>
+                    <td class="b-table__td js-giftcard__error">123</td>
+                    <td class="b-table__td"><span class="b-icn b-icn--close js-giftcard__remove">&nbsp;</span> </td>
+                </tr>
+                <tr class="b-table__tr js-giftcard__row error">
+                    <td class="b-table__td"><input type="text" class="b-form__inputText i-w-f js-giftcard__number b-text--error" value="" placeholder="Номер карты" data-index="2"/></td>
+                    <td class="b-table__td"><input type="text" class="b-form__inputText i-w-f js-giftcard__code" value="333333" placeholder="Код карты" /></td>
+                    <td class="b-table__td js-giftcard__error error" colspan="2">
+                        <span class="b-text--error">
+                            Поле «Номер карты» обязательно для заполнения
+                        </span>
+                    </td>
+                    <td class="b-table__td"><span class="b-icn b-icn--close js-giftcard__remove">&nbsp;</span> </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="b-table--checkout__content b-cp--b js-giftcard__form i-pl17" style="display: none">
+            <input type="text" class="b-form__inputText i-mr10 js-giftcard__number b-col--7" value="" placeholder="Номер карты" />
+            <input type="text" class="b-form__inputText i-mr15 js-giftcard__code" value="" placeholder="Код" style="width: 100px"/>
+        </div>
+    </div>
+
+
+    <div class="b-table--checkout__content js-giftcard__item i-pl17">
+        <noscript>
+            <input name="add" type="submit" class="b-btn b-btn--grey b-btn--plain" value="Добавить карту" />
+        </noscript>
+    <span class="b-btn b-btn--grey b-btn--plain js-giftcard__add">
+        Добавить карту
+    </span>
+    </div>
+</div>
+
+<script id="checkoutGiftCardRowTemplate" type="text/x-jquery-tmpl">
+    <tr class="b-table__tr js-giftcard__row">
+        <td class="b-table__td"><input type="text" class="b-form__inputText i-w-f js-giftcard__number" value="${number}" placeholder="Номер карты" data-index="${index}"/></td>
+        <td class="b-table__td"><input type="text" class="b-form__inputText i-w-f js-giftcard__code" value="${code}" placeholder="Код карты" /></td>
+        <td class="b-table__td js-giftcard__error"></td>
+        <td class="b-table__td js-giftcard__error"></td>
+        <td class="b-table__td"><span class="b-icn b-icn--close js-giftcard__remove">&nbsp;</span> </td>
+    </tr>
+</script>
+<script id="checkoutGiftCardTableTemplate" type="text/x-jquery-tmpl">
+    <table class="js-giftcard__table b-table b-table--plain b-col--3--2">
+        <thead>
+            <tr class="b-table__tr">
+                <th class="b-table__th" style="width: 150px">Номер карты</th>
+                <th class="b-table__th" style="">Код</th>
+                <th class="b-table__th" style="width:23%">Доступно</th>
+                <th class="b-table__th" style="width:23%">Резерв по заказу</th>
+                <th class="b-table__th" style="width:50px">Удалить</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="b-table__tr js-giftcard__row" data-giftcard='{"count1":"123", "count2":"123"}'>
+                <td class="b-table__td"><input type="text" class="b-form__inputText i-w-f js-giftcard__number" value="${number}" placeholder="Номер карты" data-index="1"/></td>
+                <td class="b-table__td"><input type="text" class="b-form__inputText i-w-f js-giftcard__code" value="${code}" placeholder="Код карты" /></td>
+                <td class="b-table__td js-giftcard__error">123</td>
+                <td class="b-table__td js-giftcard__error">123</td>
+                <td class="b-table__td"><span class="b-icn b-icn--close js-giftcard__remove">&nbsp;</span> </td>
+            </tr>
+        </tbody>
+    </table>
+</script>
+<script id="checkoutGiftCardFormTemplate" type="text/x-jquery-tmpl">
+    <input type="text" class="b-form__inputText i-mr10 js-giftcard__number b-col--7" value="" placeholder="Номер карты" />
+    <input type="text" class="b-form__inputText i-mr15 js-giftcard__code" value="" placeholder="Код" style="width: 100px"/>
+</script>
+<script id="checkoutGiftCardTableIntegers" type="text/x-jquery-tmpl">
+    <td class="b-table__td js-giftcard__error">${count1}</td>
+    <td class="b-table__td js-giftcard__error">${count2}</td>
+</script>
+<script id="checkoutGiftCardTableError" type="text/x-jquery-tmpl">
+    <td class="b-table__td js-giftcard__error error i-text-left" colspan="2">
+        <span class="b-text--error">
+            {{html error}}
+        </span>
+    </td>
+</script>

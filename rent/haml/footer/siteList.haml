@@ -1,0 +1,24 @@
+- @sitelist = {"www.komus.org" => "Корпоративная жизнь компании",
+  "www.bumaga-komus.ru" => "Полиграфические сорта бумаги и картона",
+  "komus-upakovka.ru" => "Полимерная упаковка и материалы",
+  "www.komus-med.ru" => "Товары медицинского назначения",
+  "www.komus-reklama.ru" => "Рекламно-сувенирная продукция и полиграфия"}
+
+%h3.b-siteList__h3 Все сайты компании &laquo;Комус&raquo;
+%ul.clearfix
+  -@sitelist.each do |key, value|
+    %li.b-col.b-col--5
+      %a.b-link{:href=>'#'} #{key}
+      %div #{value}
+
+  - @sitelist = {"www.komus-opt.ru" => "Оптовые продажи",
+  "www.komus.ru" => "Интернет-магазин &laquo;Комус&raquo;",
+  "www.tech.komus.ru" => "Комус-техника",
+  "www.superfishka.ru" => "Магазин оригинальных подарков &laquo;Суперфишка&raquo;",
+  "www.komus-contact.ru" => "Аутсорсинговый контакт-центр"}
+
+%ul.clearfix
+  -@sitelist.each do |key, value|
+    %li.b-col.b-col--5
+      %a.b-link{:href=>'#'} #{key}
+      %div #{value}

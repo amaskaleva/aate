@@ -1,0 +1,157 @@
+.b-blockWrapper.i-mb15
+  .b-blockWrapper__label Товары 1-18 из 186
+  .b-blockWrapper--fill
+    .b-select
+      .b-select__label Строк:
+      %select.js-select__simple
+        %option{:value=>"20"} 20
+        %option{:value=>"30"} 30
+    .b-select
+      .b-select__label
+      %select.js-select__simple{:style=>"width:155px"}
+        %option{:value=>"1"} по популярности
+        %option{:value=>"2"} по рейтингу пользователей
+        %option{:value=>"3"} по наименованию от А до Я
+        %option{:value=>"4"} по наименованию от Я до А
+        %option{:value=>"5"} по цене по убыванию
+        %option{:value=>"6"} по цене по возрастанию
+        %option{:value=>"7"} по отзывам
+        %option{:value=>"8"} по доступности товара под заказ
+.b-blockWrapper.b-blockWrapper--empty.i-b-no
+  %hr
+  .b-blockWrapper__label
+    .b-productCompare.js-compare__item
+      %img.b-productCompare__img{:src=>"images/temp/compare/product_1.jpg", :alt=>""}
+      .b-productCompare__close.js-compare__remove
+    .b-productCompare.b-productCompare--empty
+    .b-productCompare.b-productCompare--empty
+    .b-productCompare.b-productCompare--empty
+  .b-blockWrapper__label
+    .b-btn.b-btn--red.js-compare--show Сравнить
+  %hr
+.b-blockWrapper--fill.b-blockWrapper__label.b-blockWrapper__label--big Подбор товара
+.b-blockWrapper.b-blockWrapper--round.js-searchBlock
+  .b-blockWrapper--empty
+    .b-blockWrapper__arrowLabel.js-listTitle Производители
+    .js-listHide.js-check__wrapper
+      -@srcList = [{"type"=>"only", "value"=>"", "label"=>"Все"},
+      {"type"=>"disable", "value"=>"", "label"=>"Acer"},
+      {"type"=>"", "value"=>"", "label"=>"Apple"},
+      {"type"=>"", "value"=>"", "label"=>"Asus"},
+      {"type"=>"", "value"=>"", "label"=>"DELL"},
+      {"type"=>"", "value"=>"", "label"=>"Hewlett-Packard"},
+      {"type"=>"", "value"=>"", "label"=>"Lenovo"},
+      {"type"=>"", "value"=>"", "label"=>"MSI"},
+      {"type"=>"", "value"=>"", "label"=>"Packard Bell"},
+      {"type"=>"", "value"=>"", "label"=>"Samsung"},
+      {"type"=>"", "value"=>"", "label"=>"Sony"},
+      {"type"=>"", "value"=>"", "label"=>"Toshiba"}]
+      = Haml::Engine.new(File.read("productList/searchCheckboxList.haml")).render(parent, :checkboxList => @srcList)
+  .b-blockWrapper--empty
+    %hr
+    -@srcList = [{"type"=>"", "value"=>"", "label"=>"В наличии"},
+      {"type"=>"", "value"=>"", "label"=>"Новинка"}]
+    = Haml::Engine.new(File.read("productList/searchCheckboxList.haml")).render(parent, :checkboxList => @srcList)
+  <!--price-->
+  .b-blockWrapper--empty.js-range__wrapper
+    .b-blockWrapper__arrowLabel.js-listTitle Цена, руб
+    .js-listHide
+      %form
+        .clearfix
+          .b-col.b-col--2.i-pr15.i-text-right
+            %span.i-mr10 от
+            %input.b-inputText.b-inputText--small.js-range__min{:type=>"text", :name=>"productIsset", :value=>"0"}
+          .b-col.b-col--2.i-pr15.i-text-left
+            %span.i-mr10 до
+            %input.b-inputText.b-inputText--small.js-range__max{:type=>"text", :name=>"productIsset", :value=>"97000"}
+        = Haml::Engine.new(File.read("components/slider.haml")).render(parent, :min => "0", :max => "97000", :step => "10", :currentMinValue => "50", :currentMaxValue => "2000")
+  .b-blockWrapper--empty
+    .b-blockWrapper__arrowLabel.js-listTitle Тип
+    .js-listHide
+      -@srcList = [{"type"=>"", "value"=>"", "label"=>"Ноутбук"},
+        {"type"=>"", "value"=>"", "label"=>"Ультрабук"}]
+      = Haml::Engine.new(File.read("productList/searchCheckboxList.haml")).render(parent, :checkboxList => @srcList)
+  .b-blockWrapper--empty
+    .b-blockWrapper__arrowLabel.js-listTitle Размер экрана: дюйм:
+    .js-listHide
+      = Haml::Engine.new(File.read("components/sliderForm.haml")).render(parent, :min => "11.6", :max => "18.4", :step => "0.2", :currentMinValue => "11.6", :currentMaxValue => "18.4")
+  .b-blockWrapper--empty
+    .b-blockWrapper__arrowLabel.js-listTitle Операционная система
+    .js-listHide
+      -@srcList = [{"type"=>"", "value"=>"", "label"=>"FreeBSD"},
+        {"type"=>"", "value"=>"", "label"=>"Linux"},
+        {"type"=>"", "value"=>"", "label"=>"MacOS"},
+        {"type"=>"", "value"=>"", "label"=>"MacOS"},
+        {"type"=>"", "value"=>"", "label"=>"Windows 7"},
+        {"type"=>"", "value"=>"", "label"=>"Windows 8"}]
+      = Haml::Engine.new(File.read("productList/searchCheckboxList.haml")).render(parent, :checkboxList => @srcList)
+  .b-blockWrapper--empty
+    .b-blockWrapper__arrowLabel.js-listTitle Веб-камера
+    .js-listHide
+      -@srcList = [{"type"=>"", "value"=>"", "label"=>"0.3"},
+        {"type"=>"", "value"=>"", "label"=>"1"},
+        {"type"=>"", "value"=>"", "label"=>"1.3"},
+        {"type"=>"", "value"=>"", "label"=>"2.0"}]
+      = Haml::Engine.new(File.read("productList/searchCheckboxList.haml")).render(parent, :checkboxList => @srcList)
+  .b-blockWrapper--empty.clearfix
+    .b-blockWrapper__arrowLabel.js-listTitle Частота процессора, ГГц
+    .js-listHide
+      = Haml::Engine.new(File.read("components/sliderForm.haml")).render(parent, :min => "1.0", :max => "220.00", :step => "0.2", :currentMinValue => "1", :currentMaxValue => "4")
+  .b-blockWrapper--empty.clearfix
+    .b-blockWrapper__arrowLabel.js-listTitle Объем оперативной памяти,  RAM, Мб
+    .js-listHide
+      = Haml::Engine.new(File.read("components/sliderForm.haml")).render(parent, :min => "1024", :max => "8192", :step => "1", :currentMinValue => "1300", :currentMaxValue => "5000")
+  .b-blockWrapper--empty
+    .b-blockWrapper__arrowLabel.js-listTitle Количество ядер, шт
+    .js-listHide
+      -@srcList = [{"type"=>"", "value"=>"", "label"=>"2"},
+        {"type"=>"", "value"=>"", "label"=>"4"}]
+      = Haml::Engine.new(File.read("productList/searchCheckboxList.haml")).render(parent, :checkboxList => @srcList)
+  .b-blockWrapper--empty.clearfix
+    .b-blockWrapper__arrowLabel.js-listTitle Объем жесткого диска
+    .js-listHide
+      = Haml::Engine.new(File.read("components/sliderForm.haml")).render(parent, :min => "64", :max => "2048", :step => "1", :currentMinValue => "64", :currentMaxValue => "2048")
+  .b-blockWrapper--empty
+    .js-listHide
+      -@srcList = [{"type"=>"", "value"=>"", "label"=>"Оптический привод"},
+        {"type"=>"", "value"=>"", "label"=>"Поддержка карт памяти"}]
+      = Haml::Engine.new(File.read("productList/searchCheckboxList.haml")).render(parent, :checkboxList => @srcList)
+  .b-blockWrapper--empty
+    .js-listHide
+      -@srcList = [{"type"=>"", "value"=>"", "label"=>"Wi-Fi"},
+        {"type"=>"", "value"=>"", "label"=>"WiMAX"},
+        {"type"=>"", "value"=>"", "label"=>"Bluetooth"},
+        {"type"=>"", "value"=>"", "label"=>"microUSB"}]
+  .b-blockWrapper--empty
+    .b-blockWrapper__arrowLabel.js-listTitle Поддержка карт памяти
+    .js-listHide
+      -@srcList = [{"type"=>"", "value"=>"", "label"=>"microSD"},
+        {"type"=>"", "value"=>"", "label"=>"microSDHD"},
+        {"type"=>"", "value"=>"", "label"=>"MMC"},
+        {"type"=>"", "value"=>"", "label"=>"MMC+"},
+        {"type"=>"", "value"=>"", "label"=>"MS"},
+        {"type"=>"", "value"=>"", "label"=>"MS Pro"},
+        {"type"=>"", "value"=>"", "label"=>"SD"},
+        {"type"=>"", "value"=>"", "label"=>"SDHC"},
+        {"type"=>"", "value"=>"", "label"=>"xD-Picture Card"}]
+      = Haml::Engine.new(File.read("productList/searchCheckboxList.haml")).render(parent, :checkboxList => @srcList)
+  .b-blockWrapper--empty.clearfix
+    .b-blockWrapper__arrowLabel.js-listTitle USB 2.0, шт
+    .js-listHide
+      = Haml::Engine.new(File.read("components/sliderForm.haml")).render(parent, :min => "1", :max => "4", :step => "1", :currentMinValue => "1", :currentMaxValue => "4")
+  .b-blockWrapper--empty
+    .b-blockWrapper__arrowLabel.js-listTitle Поддержка карт памяти
+    .js-listHide
+      -@srcList = [{"type"=>"", "value"=>"", "label"=>"Полноразмерная клавиатура"}]
+      = Haml::Engine.new(File.read("productList/searchCheckboxList.haml")).render(parent, :checkboxList => @srcList)
+  .b-blockWrapper--empty.clearfix
+    .b-blockWrapper__arrowLabel.js-listTitle Толщина, мм
+    .js-listHide
+      = Haml::Engine.new(File.read("components/sliderForm.haml")).render(parent, :min => "0.8", :max => "356.0", :step => "0.2", :currentMinValue => "1", :currentMaxValue => "4")
+  .b-blockWrapper--empty.clearfix
+    .b-blockWrapper__arrowLabel.js-listTitle Вес, г
+    .js-listHide
+      = Haml::Engine.new(File.read("components/sliderForm.haml")).render(parent, :min => "1060", :max => "7000", :step => "1", :currentMinValue => "1", :currentMaxValue => "4")
+.b-blockWrapper__label.b-blockWrapper--empty
+  .b-btn.b-btn--grey.js-search__btnclear Очистить
+  .b-btn.b-btn--red Подобрать

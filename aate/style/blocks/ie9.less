@@ -1,0 +1,32 @@
+/*
+<!--[if lte IE 9]>
+<link type="text/css" rel="stylesheet" href="/_ui/desktop/theme-komus/css/ie8.css" media="all" />
+<![endif]-->
+*/
+
+.clearfix {
+  zoom: 1;
+
+  &:before,
+  &:after {
+    content: '';
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+.main-wrapper.left-sidebar{
+  .clearfix;
+  clear: both;
+
+  .site-content, .sidebar-1{
+    display: inline-block;
+    float: right;
+  }
+  .site-content + .sidebar-1{
+    width: 26%;
+  }
+}

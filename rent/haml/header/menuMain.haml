@@ -1,0 +1,13 @@
+- @items = ["Главная", "Молодая Семья и Опека", "Ипотека", "Новостройки", "Вторичное жилье", "Контакты"]
+
+.nav-container
+  .main-navigation{:id=>"site-navigation",:role=>"navigation"}
+    .col.grid_12_of_12
+      %h3.menu-toggle.assistive-text
+        Menu
+      .nav-menu
+        %ul
+          - @items.each do |item|
+            %li.page_item.page-item-2.last
+              %a{:href=>"#"}
+                =item

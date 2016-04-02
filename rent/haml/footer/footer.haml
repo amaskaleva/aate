@@ -1,0 +1,9 @@
+- @socials = ["yt", "fb", "tw", "vk", "ok", "in", "inst", "fs", "gplus"]
+.b-footer__inner
+  .b-footer__text
+    %p Сообщить об оши<span class="b-colored--b05155">П</span>ке: <span class="b-colored--000">выделить текст и нажать Ctrl+Enter</span>
+    %p Москва - Телефон для справок 8 (495) 258-258-8; Телефон для заказов: 8 (495) 651-6511
+  .b-socials
+    -@socials.each do |key|
+      %a{:href=>"#"}
+        %i{:class=>"b-socials__icon b-socials__icon--#{key}"}

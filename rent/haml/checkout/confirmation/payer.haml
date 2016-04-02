@@ -1,0 +1,21 @@
+.b-table--checkout__block.b-table--checkout__block--gray
+  %p.b-table--checkout__blockLabel.i-pb10
+    Оплата заказа
+  .b-div__row
+    .b-div__cell.b-div__cell--text
+      Получатель:
+    .b-div__cell.b-div__cell--text
+      %span.b-table--checkout__textLabel
+        СТУДИЯ ЧЕРЕПАХА
+      %a.b-link.i-ml10{:href=>"#"}
+        Изменить
+  .b-div__row
+    .b-div__cell.b-div__cell--text
+      Форма оплаты:
+    .b-div__cell.b-div__cell--text
+      %span.b-table--checkout__textLabel
+        безналичный - с отсрочкой платежа
+      %a.b-link.i-ml10{:href=>"#"}
+        Изменить
+  .i-db
+    = File.read("checkout/confirmation/gifts.html")

@@ -1,0 +1,28 @@
+- @breadcrumbs = ["Главная", "Оформление заказа", "Адрес доставки"]
+- mainTop = File.read("checkout/paymentType/error.html")
+- contentTop = Haml::Engine.new(File.read("checkout/paymentType.haml")).render(parent)
+- contentBottom = File.read("checkout/paymentType/coins.html") + File.read("checkout/paymentType/gifts.html") + File.read("checkout/paymentType/payer.html") + File.read("checkout/paymentType/bank.html")
+- contentRightHtml = Haml::Engine.new(File.read("checkout/main.haml")).render(parent, :stepCurrent => 3, :additional => contentBottom, :content => contentTop, :top => mainTop)
+- breadcrumbsHtml = Haml::Engine.new(File.read("components/breadcrumbs.haml")).render(parent, :breadcrumbs => @breadcrumbs)
+
+!!! 5
+%html{}
+  %head
+    %meta{:charset=>"utf-8"}
+    %title Комус - Бонусная программа
+    %link{:rel=>"stylesheet", :type=>"text/css", :href=>"css/style.css"}
+    %script{:type=>"text/javascript", :src=>"js/temp.js"}
+  %body
+    .b-pageWrapper
+      .b-header
+        = Haml::Engine.new(File.read("header/headerMain.haml")).render
+      .b-content
+        .b-container.b-container--main
+          .b-container--main__inner
+            = Haml::Engine.new(File.read("header/logoSearch.haml")).render
+            .clearfix.i-mb45
+              = Haml::Engine.new(File.read("header/topMenu.haml")).render(parent, :categoryClass => '')
+              = Haml::Engine.new(File.read("pageTemplates/oneColumContent.haml")).render(parent, :rightPanelContent => contentRightHtml, :breadcrumbs => breadcrumbsHtml)
+            .clearfix
+              = Haml::Engine.new(File.read("footer/footerMain.haml")).render
+          = Haml::Engine.new(File.read("footer/adv.haml")).render

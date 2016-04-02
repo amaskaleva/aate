@@ -1,0 +1,28 @@
+- @breadcrumbs = ["Главная", "Программа лояльности «Я люблю Комус»"]
+- contentRightHtml = Haml::Engine.new(File.read("loyaltyRegistration/title.haml")).render(parent) + Haml::Engine.new(File.read("loyaltyRegistration/loyaltyBanner.haml")).render(parent) + Haml::Engine.new(File.read("loyaltyRegistration/loyaltyPageError.haml")).render(parent) + Haml::Engine.new(File.read("loyaltyRegistration/loyaltyPageSuccess.haml")).render(parent)+Haml::Engine.new(File.read("loyaltyRegistration/loyaltyPageInfo.haml")).render(parent)+File.read("loyaltyRegistration/loyaltyPageForm.html")
+- contentLeftHtml = Haml::Engine.new(File.read("commonPagesComponents/banners.haml")).render(parent, :emptyBlock => false)
+- breadcrumbsHtml = Haml::Engine.new(File.read("components/breadcrumbs.haml")).render(parent, :breadcrumbs => @breadcrumbs)
+
+!!! 5
+%html{}
+%head
+  %meta{:charset=>"utf-8"}
+  %title Комус - Бонусная программа
+  %link{:rel=>"stylesheet", :type=>"text/css", :href=>"css/style.css"}
+  %noscript
+    %link{:rel=>"stylesheet", :type=>"text/css", :href=>"css/noscript.css"}
+  %script{:type=>"text/javascript", :src=>"js/temp.js"}
+%body
+  .b-pageWrapper
+    .b-header
+      = Haml::Engine.new(File.read("header/headerMain.haml")).render
+    .b-content
+      .b-container.b-container--main
+        .b-container--main__inner
+          = Haml::Engine.new(File.read("header/logoSearch.haml")).render
+          .clearfix.i-mb45
+            = Haml::Engine.new(File.read("header/topMenu.haml")).render(parent, :categoryClass => '')
+            = Haml::Engine.new(File.read("pageTemplates/twoColumnContent.haml")).render(parent, :leftPanelContent => contentLeftHtml, :rightPanelContent => contentRightHtml, :breadcrumbs => breadcrumbsHtml)
+          .clearfix
+            = Haml::Engine.new(File.read("footer/footerMain.haml")).render
+        = Haml::Engine.new(File.read("footer/adv.haml")).render

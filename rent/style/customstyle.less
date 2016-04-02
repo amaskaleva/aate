@@ -1,0 +1,23 @@
+@import "common/colors.less";
+@import "common/variables.less";
+@import "common/mixins.less";
+@import "common/helper.less";
+@import "common/css3.less";
+
+@import "blocks/b-icn.less";
+
+@import "blocks/page.less";
+@import "blocks/input.less";
+
+@import "blocks/header.less";
+@import "blocks/menu.less";
+@import "blocks/footer.less";
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  @import "blocks/ie.less";
+}
+@import "blocks/safari.less";
+//@supports (-webkit-text-size-adjust:none) and (not (-ms-accelerator:true)) and (not (-moz-appearance:none))
+//{
+//  @import "blocks/safari.less";
+//}

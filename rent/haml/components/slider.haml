@@ -1,0 +1,18 @@
+-if !defined? rangeMin
+  -rangeMin = ".js-range__min"
+-if !defined? rangeMan == nil
+  -rangeMax = ".js-range__max"
+-if !defined? min == nil
+  -min = "1060"
+-if !defined? max == nil
+  -max = "7000"
+-if !defined? step == nil
+  -step = "1"
+-if !defined? currentMinValue == nil
+  -currentMinValue = "200"
+-if !defined? currentMaxValue == nil
+  -currentMaxValue = "2000"
+
+.b-range__wrapper
+  .b-range.js-range.js-range--double{:"data-params"=>'{"rangeMin": "' + rangeMin +'","rangeMax": "'+rangeMax+'","grid": "auto","min":"' + min + '","max": "'+max+'","currentMinValue": "'+currentMinValue+'","currentMaxValue": "'+currentMaxValue+'","step": "'+step+'"}'}
+  %noscript

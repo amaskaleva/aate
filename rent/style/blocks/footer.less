@@ -1,0 +1,43 @@
+#footercontainer{
+  background: @color-header-bg;
+
+  .site-footer{
+    padding-top: 0;
+  }
+
+  .footer-wrap{
+    padding-top: 10px;
+    background: transparent;
+    color: @color-header-title;
+    text-align: center;
+
+    .row{
+      display: block;
+      display: inline-table;
+      max-width: 1140px;
+      width: 100%;
+      line-height: 30px;
+
+      &:first-of-type{
+        .widget{
+          padding-bottom: 5px;
+          margin-bottom: 0;
+        }
+      }
+
+      & > div{
+        //display: table-cell;
+        //width: auto;
+        vertical-align: top;
+        color: inherit;
+        text-align: justify;
+        line-height: inherit;
+
+        & > *{
+          display: block;
+          color: inherit;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+- @breadcrumbs = ["Главная", "Личный кабинет", "Программа лояльности"]
+- contentLeftHtml = Haml::Engine.new(File.read("commonPagesComponents/banners.haml")).render(parent, :emptyBlock => false)
+- contentRightHtml = File.read("loyalty/loyaltyContent1.html") + File.read("loyalty/loyaltyContent2.html")
+- breadcrumbsHtml = Haml::Engine.new(File.read("components/breadcrumbs.haml")).render(parent, :breadcrumbs => @breadcrumbs)
+
+!!! 5
+%html{}
+%head
+  %meta{:charset=>"utf-8"}
+  %title Комус - Бонусная программа
+  %link{:rel=>"stylesheet", :type=>"text/css", :href=>"css/style.css"}
+  %script{:type=>"text/javascript", :src=>"js/temp.js"}
+%body
+  .b-pageWrapper
+    .b-header
+      = Haml::Engine.new(File.read("header/headerMain.haml")).render
+    .b-content
+      .b-container.b-container--main
+        .b-container--main__inner
+          = Haml::Engine.new(File.read("header/logoSearch.haml")).render
+          .clearfix.i-mb45
+            = Haml::Engine.new(File.read("header/topMenu.haml")).render(parent, :categoryClass => '')
+            = Haml::Engine.new(File.read("pageTemplates/twoColumnContent.haml")).render(parent, :leftPanelContent => contentLeftHtml, :rightPanelContent => contentRightHtml, :breadcrumbs => breadcrumbsHtml)
+          .clearfix
+            = Haml::Engine.new(File.read("footer/footerMain.haml")).render
+        = Haml::Engine.new(File.read("footer/adv.haml")).render

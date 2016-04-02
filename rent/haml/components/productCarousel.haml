@@ -1,0 +1,4 @@
+%ul.b-menu--horizontal.js-simple-gallery
+  -(1..5).each do |i|
+    %li.b-menu__item.js-gallery__item
+      = Haml::Engine.new(File.read("components/productsGridItem_sell.haml")).render

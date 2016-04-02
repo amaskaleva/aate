@@ -1,0 +1,130 @@
+- @paperSubMenu = ['Бумага для офисной техники',
+  'Бумага для заметок',
+  'Бумажная продукция',
+  'Почтовые конверты и пакеты',
+  'Бухгалтерские книги и бланки',
+  'Ролики и чековая лента',
+  'Самоклеящиеся этикетки и бумага',
+  'Этикетки и оборудование для маркировки',
+  'Часто покупают'];
+- @serviceSubMenu = ['Доставка воды',
+  'Аренда кулеров',
+  'Заправка картриджей',
+  'Замена картриджей',
+  'Нанесенеие логотипа',
+  'Изготовление печатей',
+  'Ремонт техники']
+
+- catalogAddClass = ''
+-if !categoryClass.empty?
+  - catalogAddClass = 'b-topMenu__item--catalog__active'
+
+.b-topMenu
+  %ul
+    %li.b-topMenu__item.b-topMenu__item--catalog{'class' => catalogAddClass}
+      %a.b-topMenu__item__link{:href=>"#"} Каталог
+      .b-catalogCategories.js-catalogList
+        %ul.b-menu
+          %li.b-menu__item.i-cartridges
+            %a.b-menu__item__link{:href=>"#"}
+              %i.b-square
+              Картриджи
+              %i.b-menu__item__link--arrow
+          %li.b-menu__item.i-paper
+            %a.b-menu__item__link{:href=>"#"}
+              %i.b-square
+              Бумажная продукция
+              %i.b-menu__item__link--arrow
+          %li.b-menu__item.i-folders
+            %a.b-menu__item__link{:href=>"#"}
+              %i.b-square
+              Папки
+              %i.b-menu__item__link--arrow
+              .b-catalogCategories__submenu.clearfix
+                %ul.b-catalogCategories__submenu__list
+                  -@paperSubMenu.each do |item|
+                    %li.b-catalogCategories__submenu__list__item
+                      %a.b-catalogCategories__submenu__list__item__link{:href=>"#"}
+                        = item
+                .b-catalogCategories__submenu__product
+                  .b-catalogCategories__submenu__productImg
+                    %img{:src=>"images/temp/temp__notebook.png", :alt=>""}
+                  .b-catalogCategories__submenu__productName Ноутбук HP Pavillion 17-e102sr
+                  .clearfix
+                    %span.b-catalogCategories__submenu__productPrice 6 838 р.
+                    %span.b-link В корзину
+          %li.b-menu__item.i-pens
+            %a.b-menu__item__link{:href=>"#"}
+              %i.b-square
+              Ручки, карандаши
+              %i.b-menu__item__link--arrow
+          %li.b-menu__item.i-stationery
+            %a.b-menu__item__link{:href=>"#"}
+              %i.b-square
+              Канцтовары
+          %li.b-menu__item.i-demoEquipment
+            %a.b-menu__item__link{:href=>"#"}
+              %i.b-square
+              Демо-оборудование
+          %li.b-menu__item.i-officeEquipment
+            %a.b-menu__item__link{:href=>"#"}
+              %i.b-square
+              Оргтехника
+          %li.b-menu__item.i-computers
+            %a.b-menu__item__link{:href=>"#"}
+              %i.b-square
+              Компьютеры
+          %li.b-menu__item.i-furniture
+            %a.b-menu__item__link{:href=>"#"}
+              %i.b-square
+              Мебель
+          %li.b-menu__item.i-businessAccessories
+            %a.b-menu__item__link{:href=>"#"}
+              %i.b-square
+              Бизнес аксессуары
+          %li.b-menu__item.i-gifts
+            %a.b-menu__item__link{:href=>"#"}
+              %i.b-square
+              Подарки и сувениры
+          %li.b-menu__item.i-literature
+            %a.b-menu__item__link{:href=>"#"}
+              %i.b-square
+              Литература
+          %li.b-menu__item.i-householdAppliances
+            %a.b-menu__item__link{:href=>"#"}
+              %i.b-square
+              Бытовая техника
+          %li.b-menu__item.i-products
+            %a.b-menu__item__link{:href=>"#"}
+              %i.b-square
+              Продукты
+          %li.b-menu__item.i-householdGoods
+            %a.b-menu__item__link{:href=>"#"}
+              %i.b-square
+              Хоз. товары
+          %li.b-menu__item.i-coveralls
+            %a.b-menu__item__link{:href=>"#"}
+              %i.b-square
+              Спецодежда
+          %li.b-menu__item.i-water
+            %a.b-menu__item__link{:href=>"#"}
+              %i.b-square
+              Бутилированная вода
+
+    %li.b-topMenu__item
+      %a.b-topMenu__item__link{:href=>"#"} Бонусная программа
+    %li.b-topMenu__item
+      %a.b-topMenu__item__link{:href=>"#"} Сезонные предложения
+    %li.b-topMenu__item
+      %a.b-topMenu__item__link{:href=>"#"} Офисное пространство
+    %li.b-topMenu__item
+      %a.b-topMenu__item__link{:href=>"#"} Акции
+    %li.b-topMenu__item
+      %a.b-topMenu__item__link{:href=>"#"} Услуги
+      .b-topMenu__submenu
+        %ul.b-topMenu__submenu__list
+          - @serviceSubMenu.each do |item|
+            %li.b-topMenu__submenu__list__item
+              %a.b-topMenu__submenu__list__item__link{:href=>"#"}
+                = item
+        %a.b-link{:href=>"#"} Подробнее &rsaquo;

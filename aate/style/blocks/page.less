@@ -1,0 +1,140 @@
+#page{
+  .nav-container{
+    .max-width{
+      margin-bottom: 5px;
+      text-align: left;
+    }
+    .horisontal-navigation{
+      text-align: left;
+    }
+    &.top-navigation{
+      background: transparent;
+      border: none;
+      box-shadow: none;
+
+      color: @color-menu-text;
+      &.cloned{
+        background: @color-bg-transparent;
+      }
+    }
+    .small-logo{
+      display: none;
+    }
+    .menu-header-menu-container{
+      width: 100%;
+    }
+    .nav-horizontal{
+      border-bottom: none;
+      width: 100%;
+
+      @media @desktop {
+        border-bottom: 2px solid @color-text-transparent;
+      }
+
+      li{
+        border-bottom: none;
+        border-bottom: 3px solid transparent;
+        &:hover, &.current_page_item{
+          border: none;
+          border-bottom: 3px solid @color-menu-text;
+
+          &:after{
+            display: none;
+          }
+        }
+
+        &{
+          margin-bottom: -3px;
+        }
+        & > *{
+          text-decoration: none;
+          padding: 5px 10px 8px 10px;
+          border: none;
+          color: @color-menu-text;
+          margin: 0;
+        }
+      }
+    }
+    .horisontal-navigation
+      .nav-horizontal{
+        text-align: left;
+        float: left;
+        &.original{
+          margin-bottom: -11px
+        }
+      }
+  }
+  .widget_categories{
+    & > ul {
+      & > li {
+        padding: 0;
+        padding-left: 20px;
+        a{
+          display: block;
+          cursor: pointer;
+        }
+
+        &:hover {
+          #css3 > .box-shadow(none) !important;
+          #css3 > .text-shadow(none) !important;
+          background: none !important;
+
+          a{
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  .sidebar-1{
+    padding-left: 0;
+  }
+}
+
+.main-wrapper.left-sidebar .site-content{
+  #css3 > .box-shadow(none);
+}
+.post-navigation{
+  display: none;
+}
+
+#page .wide .column .widget li:before,
+#page .small .widget li:before{
+  content: '';
+  display: none;
+}
+.sidebar-1{
+  .widget-area{
+    .widget_categories{
+      .widget-title{
+        display: none;
+      }
+    }
+  }
+}
+
+.post{
+  .content-wrap{
+    & > a{
+      color: inherit;
+    }
+  }
+}
+
+.your-message{
+  textarea{
+    max-width: 420px;
+  }
+}
+@media @tablet{
+  .site{
+    width: 100%;
+  }
+}
+
+.archive-header{
+  & > *, & h1{
+    border-bottom: none;
+    font-size: 25px;
+  }
+}

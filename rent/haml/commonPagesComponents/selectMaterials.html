@@ -1,0 +1,36 @@
+<div class="b-leftPane__item__title">Выбор расходных материалов</div>
+<div class="b-newsText">Выберите необходимые параметры</div>
+<div class="b-newsText">
+    <form action="#" method="post" class="js-supplies__form">
+        <div class="i-db">
+            <select name="filters[0].value" class="js-select__simple js-supplies__select i-w-f" data-index="0">
+                <option disabled selected>
+                    Выберите
+                </option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+        </div>
+    </form>
+    <p>
+        <span class="b-btn b-btn--grey">Подобрать</span>
+    </p>
+</div>
+
+<script id="suppliesSelectTemplate" type="text/x-jquery-tmpl">
+{{each(prop, value) items}}
+    <select name="${prop}" class="js-select__simple js-supplies__select i-w-f" data-index="${index}">
+        <option disabled selected>
+            Выберите
+        </option>
+        {{each(key, val) value}}
+            <option value="${key}">${val}</option>
+        {{/each}}
+    </select>
+{{/each}}
+</script>

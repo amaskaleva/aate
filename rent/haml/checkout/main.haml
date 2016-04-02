@@ -1,0 +1,22 @@
+= top
+= Haml::Engine.new(File.read("checkout/step.haml")).render(parent, :stepCurrent => stepCurrent)
+.b-content.b-content--main.i-mb25
+  %form.js-validate__form
+    .b-table--checkout__block.b-table--checkout__block--gray
+      .b-col.b-col--3--2.i-br-d
+        = content
+      .b-col.b-col--3.i-pl25
+        %p.clearfix
+          %i.b-icn.b-icn--order--visa.i-mr15.i-f-lt
+          %a.b-link.i-f-lt.i-lh-26{:href=>"#"}
+            Подробнее об оплате
+        %p.clearfix
+          %i.b-icn.b-icn--order--delivery--big.i-mr15.i-f-lt
+          %a.b-link.i-f-lt.i-lh-26{:href=>"#"}
+            Подробнее о доставке
+        %p.clearfix
+          %i.b-icn.b-icn--order--rst.i-mr15.i-f-lt
+          %a.b-link.i-f-lt.i-lh-26{:href=>"#"}
+            Гарантии и возврат товара
+    = additional
+    = File.read("checkout/bottom.html")

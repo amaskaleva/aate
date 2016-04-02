@@ -1,0 +1,21 @@
+.nav-container{
+  color: @color-menu-text;
+  background: @color-common-menu;
+  .main-navigation{
+    padding: 0;
+    ul{
+      .current-menu-item{
+        color: @color-menu-text-active;
+      }
+
+      a{
+        color: inherit;
+        cursor: pointer;
+        &:hover, {
+          color: @color-menu-text-active;
+        }
+      }
+    }
+  }
+
+}

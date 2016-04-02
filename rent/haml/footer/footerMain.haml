@@ -1,0 +1,17 @@
+- items1 = ["Главная", "Молодая Семья и Опека", "Ипотека"]
+- items2 = ["Новостройки", "Вторичное жилье", "Контакты"]
+
+.footer-wrap
+  .row
+    %div
+      = Haml::Engine.new(File.read("footer/block.haml")).render(parent, :items => items1)
+    %div
+      = Haml::Engine.new(File.read("footer/block.haml")).render(parent, :items => items2)
+    %div
+      = File.read("footer/readUS.html")
+    %div
+      = File.read("footer/address.html")
+  .row.smallprint
+    %p.alignleft
+      %a{:ref=>"http://ideaboxthemes.com/"}
+        © Агентство недвижимости «Квартал Недвижимость» 2016

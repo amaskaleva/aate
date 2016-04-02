@@ -1,0 +1,120 @@
+#headercontainer{
+  background: @color-header-bg;
+
+  .site-header{
+    #mixins > .noTextWrap();
+    color: @color-header-text;
+    //display: table-row;
+    text-align: center;
+    margin: 0 auto;
+
+    @media @tablet{
+      #mixins > .textWrap();
+      width: 100%;
+    }
+    .site-title{
+      &{
+        margin: 0;
+      }
+      &, & a{
+        color: @color-header-title;
+
+        @media @tablet {
+          font-size: 3.05rem;
+        }
+      }
+      & a{
+        font-weight: normal;
+        letter-spacing: normal;
+        text-transform: capitalize;
+      }
+      padding-left: 0;
+      border: none;
+      text-align: left;
+
+      @media @mobile{
+        padding: 10px;
+        border-bottom: 1px solid @color-header-text;
+      }
+    }
+
+    & > *{
+      display: table-cell;
+      width: inherit;
+      vertical-align: middle;
+      border-left: 1px solid @color-header-text;
+      padding: 0 10px;
+
+      @media @tablet{
+        #mixins > .textWrap();
+        width: 50%;
+        &:nth-child(1){
+          border-bottom: 1px solid;
+        }
+      }
+      @media @mobile{
+        &.site-title{
+          width: 100%;
+          #mixins > .textWrap();
+        }
+        width: 50%;
+        display: inline-block;
+        float: left;
+        line-height: 32px;
+        border: none;
+        #mixins > .noTextWrap();
+        padding: 0 5px;
+
+        &:last-of-type{
+          border-left: 1px solid @color-header-text;
+        }
+      }
+
+
+      > *{
+        display: inline-flex;
+        display: inline-table;
+        vertical-align: middle;
+
+      }
+      > i{
+        display: inline-block;
+      }
+
+      .infoblock{
+        text-align: center;
+        #mixins > .textWrap();
+        & > * {
+          #mixins > .noTextWrap();
+          display: block;
+        }
+      }
+      .title{
+        color: inherit;
+        @media @tablet{
+          display: none;
+        }
+      }
+      .subtitle{
+        color: @color-header-title;
+        font-size: 18px;
+
+        @media @mobile{
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+.b-dtd{
+  display: block;
+  @media @mobile{
+    display: none;
+  }
+}
+.b-header__address{
+  .b-dtd;
+  .i-lh-n;
+  text-align: left;
+}

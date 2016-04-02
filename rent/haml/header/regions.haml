@@ -1,0 +1,34 @@
+- @regions = ['МОСКВА',
+  'МОСКОВСКАЯ ОБЛАСТЬ',
+  'САНКТ-ПЕТЕРБУРГ',
+  'ЛЕНИНГРАДСКАЯ ОБЛАСТЬ',
+  'Алтайский край',
+  'Астраханская область',
+  'Брянская область',
+  'Владимирская область',
+  'Волгоградская область',
+  'Вологодская область',
+  'Воронежская область',
+  'Калужская область',
+  'Кемеровская область',
+  'Краснодарский край',
+  'Курганская область']
+
+- firstRegion = true
+.b-enterAccount.js-showWindow.i-f-lt
+  .b-enterAccount__enter.js-regionsList__button--close
+    %span.b-enterAccount__link.b-enterAccount__link--arrow Москва
+  %div{:class => "b-region js-regionsList js-showWindow--child"}
+    %div{:class => "b-region__title"} Регионы обслуживания партнеров «Комус»
+    - (1..3).each do |i|
+      %div{:class => "b-col b-col--3"}
+        %ul.b-region__list
+          - @regions.each do |region|
+            - if firstRegion == true
+              %li.b-region__list__item.b-region__list__item--current
+                = region
+            - else
+              %li.b-region__list__item.b-region__list__item--current
+                %a.b-region__list__link{:href=>"#"}
+                  = region
+            - firstRegion = false

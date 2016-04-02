@@ -1,0 +1,19 @@
+- @menu = [{"title" => "Информация",  "content1"=> ["Главная страница", "О компании &laquo;Комус&raquo;", "Контакты"], "content2"=> ["Поставщикам", "Адреса магазинов", "Вакансии"]},
+  {"title"=>"Сервис",  "content1"=> ["Помощь","Обратная связь","Скачать Mega Label Express"], "content2"=> ["Доставка", "Оплата", "Каталог товаров"]},
+  {"title"=>"Каталог",  "content1"=> ["Каталог товаров","Печатные каталоги","Цены снижены"], "content2"=> ["Новинки", "Карта сайта", "Экологичные товары"]}]
+
+- @menu.each do |menuItem|
+  .b-footerCommonMenu__item
+    %h4.b-footerCommonMenu__h4
+      = menuItem["title"]
+    .b-footerCommonMenu__inner
+      .b-col.b-col--2
+        - menuItem["content1"].each do |item|
+          %ul
+            %li
+              %a.b-link{:href=>"#"} #{item}
+      .b-col.b-col--2
+        - menuItem["content2"].each do |item|
+          %ul
+            %li
+              %a.b-link{:href=>"#"} #{item}

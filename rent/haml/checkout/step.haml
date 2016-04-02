@@ -1,0 +1,12 @@
+- @steps=["Начало", "Адрес доставки", "Способ оплаты", "Дата доставки", "Подтвердите заказ"]
+%ul.b-steps
+  -(1..5).each do |key|
+    -if stepCurrent == key
+      - @class="b-steps__step b-steps__step--5  b-steps__step--active"
+    -else
+      - @class="b-steps__step b-steps__step--5"
+    %li{:class => @class}
+      %span.b-steps__step__order
+        = key
+      %span.b-steps__step__label
+        = @steps[key-1]

@@ -1,0 +1,6 @@
+.b-breadcrumbs
+  %ul.b-breadcrumbs__list
+    - breadcrumbs.each do |item|
+      %li.b-breadcrumbs__list__item
+        %a.b-breadcrumbs__link{:href=>"#"}
+          = item

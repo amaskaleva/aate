@@ -1,0 +1,49 @@
+/*
+<!--[if lte IE 9]>
+<link type="text/css" rel="stylesheet" href="/_ui/desktop/theme-komus/css/ie8.css" media="all" />
+<![endif]-->
+*/
+.header-text-wrap,
+.header-sidebar-components {
+  display: inline-block;
+  vertical-align: top;
+}
+.header-menu {
+  position: relative;
+}
+/*
+<!--[if lte IE 9]>
+<link type="text/css" rel="stylesheet" href="/_ui/desktop/theme-komus/css/ie8.css" media="all" />
+<![endif]-->
+*/
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.main-wrapper.left-sidebar {
+  zoom: 1;
+  clear: both;
+}
+.main-wrapper.left-sidebar:before,
+.main-wrapper.left-sidebar:after {
+  content: '';
+  display: table;
+}
+.main-wrapper.left-sidebar:after {
+  clear: both;
+}
+.main-wrapper.left-sidebar .site-content,
+.main-wrapper.left-sidebar .sidebar-1 {
+  display: inline-block;
+  float: right;
+}
+.main-wrapper.left-sidebar .site-content + .sidebar-1 {
+  width: 26%;
+}

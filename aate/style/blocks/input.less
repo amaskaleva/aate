@@ -1,0 +1,18 @@
+input[type=submit], button, .button, input[type="button"], input[type="reset"]:focus{
+  #css3 > .box-shadow(none);
+  background: @color-button-bg;
+  border: 1px solid @color-button-border;
+  color: @color-button-text;
+  #css3 > .text-shadow(none);
+  font-weight: normal;
+
+  &:hover,&:focus, &:active{
+    background-color: @color-button-border-active;
+    color: @color-button-bg;
+  }
+  &[disabled]{
+    background: @color-button-bg-disabled;
+    border: 1px solid @color-button-bg-disabled;
+    color: @color-button-text-disabled;
+  }
+}
