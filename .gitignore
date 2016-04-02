@@ -1,4 +1,2 @@
-/.idea
-/*.iml
-/rent/.idea
-/rent/*.iml
+/**/.idea/**
+/**/*.iml
