@@ -1,0 +1,50 @@
+.header{
+  background: @color-header-bg;
+  font-family: @font-family;
+
+  .site-title h1 a,
+  .site-description, .site-description > *{
+    font-family: @font-family;
+    color: @color-header-title;
+    margin: 0;
+    padding: 0;
+  }
+  .site-title{
+    > *{
+      padding: 0;
+      margin: 0;
+    }
+    h1{
+      &, & a{
+        line-height: 60px;
+        font-size: 68px;
+        text-transform: uppercase;
+        &:hover{
+          text-decoration: none;
+          color: @color-menu-text;
+        }
+      }
+    }
+  }
+  .site-description{
+    &, & >*{
+      line-height: 20px;
+      font-size: 32px;
+    }
+  }
+  &-sidebar-components{
+    width: 70%;
+  }
+  & > .widget{
+    padding-bottom: 0;
+  }
+}
+.head-wrapper{
+  background: none;
+}
+.header-text-wrap{
+  width: 30%;
+}
+.sidebar-header{
+  width: 100%;
+}

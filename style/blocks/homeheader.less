@@ -1,0 +1,97 @@
+#homepage{
+  background: @color-header-bg;
+  font-family: @font-family;
+  position: relative;
+
+  width: 100%;
+  //padding-right: 60%;
+  overflow: hidden;
+  display: block;
+  box-sizing: border-box;
+
+  .header{
+    width: 40%;
+    min-height: 100%;
+    float: left;
+    text-align: right;
+
+    .header-home-content {
+      max-width: 350px;
+      text-align: left;
+      width: 100%;
+      display: inline-block;
+
+      .site-title {
+        margin-top: 40px;
+      }
+      .site-description {
+        margin-bottom: 40px;
+      }
+
+      .widget-area {
+        color: @color-menu-text;
+
+        & > * {
+          width: 100%;
+          padding-left: 0;
+          margin-left: 0;
+        }
+        &:last-of-type{
+          margin-bottom: 60px;
+        }
+      }
+    }
+  }
+
+  .widget-area{
+    color: @color-menu-text;
+
+    & > *{
+      visibility: visible;
+      z-index: 1;
+    }
+    ul{
+      padding-left: 0;
+      margin-left: 0;
+      list-style: none;
+
+      li{
+        display: block;
+        margin-bottom: 10px;
+      }
+    }
+
+    a{
+      &, &:link, &:visited, &:hover, &:active{
+        color: @color-menu-text;
+      }
+    }
+  }
+  .header-menu{
+    background: #000;
+    float: left;
+    width: 60%;
+    right: 0;
+  }
+  &:before{
+    //z-index: -1;
+    position: absolute;
+    left: 40%;
+    margin-left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    content: '';
+
+    display: block;
+
+    background-image: url(http://ld-wp.template-help.com/wordpress_57761/wp-content/uploads/2015/12/page_header_img.jpg);
+    background-color: #2c2c2c;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: notdefined;
+    background-clip: padding-box;
+    background-size: cover;
+    background-origin: padding-box;
+  }
+}

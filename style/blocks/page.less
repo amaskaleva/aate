@@ -1,0 +1,53 @@
+#page{
+  .nav-container{
+    .max-width{
+      margin-bottom: 5px;
+      text-align: left;
+    }
+    .horisontal-navigation{
+      text-align: left;
+    }
+    &.top-navigation{
+      background: transparent;
+      border: none;
+      box-shadow: none;
+
+      color: @color-menu-text;
+      &.cloned{
+        background: @color-bg-transparent;
+      }
+    }
+    .small-logo{
+      display: none;
+    }
+    .nav-horizontal{
+      border-bottom: 2px solid @color-text-transparent;
+      width: 100%;
+
+      li{
+        border-bottom: 3px solid transparent;
+        &:hover, &.current_page_item{
+            border-bottom: 3px solid @color-menu-text;
+          }
+
+        &{
+          margin-bottom: -3px;
+        }
+        & > *{
+          text-decoration: none;
+          padding: 5px 10px 8px 10px;
+          border: none;
+          color: @color-menu-text;
+        }
+      }
+    }
+    .horisontal-navigation
+      .nav-horizontal{
+        text-align: left;
+        float: left;
+        &.original{
+          margin-bottom: -11px
+        }
+      }
+  }
+}
