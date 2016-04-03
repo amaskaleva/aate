@@ -4,9 +4,9 @@
 .footer-wrap
   .row
     %div
-      = Haml::Engine.new(File.read("footer/block.haml")).render(parent, :items => items1)
+      = Haml::Engine.new(File.read("footer/block.haml")).render(Object.new, :items => items1)
     %div
-      = Haml::Engine.new(File.read("footer/block.haml")).render(parent, :items => items2)
+      = Haml::Engine.new(File.read("footer/block.haml")).render(Object.new, :items => items2)
     %div
       = File.read("footer/readUS.html")
     %div

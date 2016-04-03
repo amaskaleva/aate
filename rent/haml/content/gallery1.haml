@@ -1,0 +1,20 @@
+- @galleryData = [{"title" => "ЖК Боровики", "imgsrc" => "gallery_images/image1.png","text"=>"Хабаровская, 51в", "subtitle"=>"1,2,3,4 комнатные квартиры" },
+{"title" => "ЖК Сирень", "imgsrc" => "gallery_images/image1.png","text"=>"Хабаровская, 51в", "subtitle"=>"1,2,3,4 комнатные квартиры" },
+{"title" => "ЖК Красавинский", "imgsrc" => "gallery_images/image1.png","text"=>"Хабаровская, 51в", "subtitle"=>"1,2,3,4 комнатные квартиры" },
+{"title" => "ЖК МотовилихинSKY", "imgsrc" => "gallery_images/image1.png","text"=>"Хабаровская, 51в", "subtitle"=>"1,2,3,4 комнатные квартиры" },
+{"title" => "ЖК Сирень", "imgsrc" => "gallery_images/image1.png","text"=>"Хабаровская, 51в", "subtitle"=>"1,2,3,4 комнатные квартиры" },
+{"title" => "ЖК Красавинский", "imgsrc" => "gallery_images/image1.png","text"=>"Хабаровская, 51в", "subtitle"=>"1,2,3,4 комнатные квартиры" },
+{"title" => "ЖК МотовилихинSKY", "imgsrc" => "gallery_images/image1.png","text"=>"Хабаровская, 51в", "subtitle"=>"1,2,3,4 комнатные квартиры" }]
+
+.b-gallery.js-gallery
+  -@galleryData.each do |key, value|
+    = Haml::Engine.new(File.read("content/gallery1Item.haml")).render(Object.new, :title => key["title"], :imgsrc => key["imgsrc"], :text=>key["text"], :subtitle => key["subtitle"])
+
+- @galleryData = [{"title" => "ЖК Боровики", "imgsrc" => "gallery_images/image1.png","text"=>"Хабаровская, 51в", "subtitle"=>"1,2,3,4 комнатные квартиры" },
+{"title" => "ЖК Сирень", "imgsrc" => "gallery_images/image1.png","text"=>"Хабаровская, 51в", "subtitle"=>"1,2,3,4 комнатные квартиры" },
+{"title" => "ЖК Красавинский", "imgsrc" => "gallery_images/image1.png","text"=>"Хабаровская, 51в", "subtitle"=>"1,2,3,4 комнатные квартиры" },
+{"title" => "ЖК МотовилихинSKY", "imgsrc" => "gallery_images/image1.png","text"=>"Хабаровская, 51в", "subtitle"=>"1,2,3,4 комнатные квартиры" }]
+.b-gallery.bgline
+  -@galleryData.each do |key, value|
+    = Haml::Engine.new(File.read("content/gallery1Item.haml")).render(Object.new, :title => key["title"], :imgsrc => key["imgsrc"], :text=>key["text"], :subtitle => key["subtitle"])
+

@@ -181,7 +181,7 @@ function tatva_class_names($classes) {
         }
         
         // check if right sidebar is active, if yes, return container wide body class
-        if(!is_front_page() && is_active_sidebar('sidebar-main') || is_page_template( 'page-templates/full-width.php' ) || is_page_template( 'page-templates/edd-store.php' ) || is_post_type_archive('download')) { 
+        if(is_active_sidebar('sidebar-main') || is_page_template( 'page-templates/full-width.php' ) || is_page_template( 'page-templates/edd-store.php' ) || is_post_type_archive('download')) {
             $classes[] = 'container-wide';
         }
  

@@ -1,10 +1,8 @@
 %header.site-header.row{:id=>"masthead",:role=>"banner"}
-  .col.grid_4_of_12
-    =Haml::Engine.new(File.read("header/headerTitle.haml")).render
-  .col.grid_8_of_12.header-extras.last
-    %div
-      =File.read("header/headerAddress.html")
-    %div
-      =File.read("header/headerTime.html")
-    %div
-      =File.read("header/headerPhone.html")
+  =Haml::Engine.new(File.read("header/headerTitle.haml")).render
+  %div
+    =File.read("header/headerAddress.html")
+  %div
+    =File.read("header/headerTime.html")
+  %div
+    =File.read("header/headerPhone.html")

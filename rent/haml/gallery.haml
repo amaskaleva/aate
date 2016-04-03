@@ -1,2 +1,2 @@
-- content = File.read("content/baseContent.html")
+- content = Haml::Engine.new(File.read("content/gallery1.haml")).render
 = Haml::Engine.new(File.read("mainTemplate.haml")).render(Object.new, :content => content)

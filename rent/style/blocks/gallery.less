@@ -1,0 +1,164 @@
+.b-gallery{
+  text-align: justify;
+  display: block;
+  position: relative;
+  .clearfix;
+  margin-bottom: 20px;
+
+  &.bgline{
+    margin-bottom: 50px;
+    margin-left: 4%;
+    width: 100%;
+
+    &:before{
+      width: 100%;
+      background: @color-gallery-line-bg;
+      height: 40%;
+      position: absolute;
+      content: '';
+      display: block;
+      margin-left: -4%;
+      margin-right: -4%;
+      bottom: 0;
+    }
+
+    .content + .subtitle{
+      position: relative;
+      margin-bottom: 30px;
+      margin-top: 0;
+      background: @color-gallery-bg-advanced;
+      color: @color-gallery-text-advanced;
+      padding-top: 0;
+    }
+    .subtitle{
+      .number{
+        font-size: 28px;
+        line-height: 32px;
+        display: block;
+      }
+    }
+  }
+
+  &--simple{
+    overflow: hidden;
+    display: block;
+  }
+
+  &__content {
+    position: relative;
+    left: 0
+  }
+
+  &__contentWrapper{
+    margin-left: 4%;
+    overflow: hidden;
+    width: 92%;
+  }
+
+  &__button {
+    height: 100%;
+    position: absolute;
+    min-width: 20px;
+    width: 4%;
+
+    div{
+      width: 19px;
+      height: 36px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+
+      margin: auto;
+      display: block;
+      background-image: url(../images/arrows.png);
+      background-repeat: no-repeat;
+      cursor: pointer;
+      background: #000;
+    }
+
+    &--back{
+      left: 0;
+
+      div{
+        background-position: 0 -175px;
+        background: #000;
+      }
+
+      &:hover div {
+        background-position: 0 -211px
+      }
+    }
+    &--next{
+      right: 0;
+
+      div {
+        background-position: -19px -175px
+      }
+      &:hover div {
+        background-position: -19px -211px
+      }
+    }
+  }
+
+  &__item{
+    display: inline-block;
+    float: left;
+    width: 23%;
+    color: @color-gallery-text;
+    #css3 > .box-sizing(border-box);
+    padding:0 5px;
+
+    @media @mobile{
+      width: 49%;
+    }
+
+    .title{
+      display: block;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .content{
+      display: block;
+      position: relative;
+
+      img{
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+    .text{
+      position: absolute;
+      background: @color-gallery-content-text-bg;
+      left: 0;
+      bottom: 20px;
+      padding: 1px 3px;
+      min-width: 60%;
+      text-align: center;
+
+      &.top{
+        bottom: auto;
+        top: 20px;
+      }
+    }
+
+    .subtitle{
+      display: block;
+      background: @color-gallery-subtitle-bg;
+      text-align: center;
+      padding: 2px 5px;
+      font-size: 14px;
+    }
+
+    .content + .subtitle{
+      margin-top: 10px;
+    }
+    /*&:last-of-type{
+      margin-right:0;
+    }
+    &:first-of-type{
+       margin-left:0;
+     }*/
+  }
+}

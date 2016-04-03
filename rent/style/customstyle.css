@@ -407,8 +407,8 @@
   }
 }
 .entry-header {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 5%;
+  margin-right: 5%;
   border-top: 4px solid #55463f;
   color: #d2b491;
   text-align: center;
@@ -457,6 +457,247 @@ ul.social-icon_footer {
 }
 ul.social-icon_footer > * {
   display: inline-block;
+}
+.b-gallery {
+  text-align: justify;
+  display: block;
+  position: relative;
+  zoom: 1;
+  margin-bottom: 20px;
+}
+.b-gallery:before,
+.b-gallery:after {
+  content: '';
+  display: table;
+}
+.b-gallery:after {
+  clear: both;
+}
+.b-gallery:before,
+.b-gallery:after {
+  content: '';
+  display: table;
+}
+.b-gallery:after {
+  clear: both;
+}
+.b-gallery.bgline {
+  margin-bottom: 50px;
+  margin-left: 4%;
+  width: 100%;
+}
+.b-gallery.bgline:before {
+  width: 100%;
+  background: #bba78d;
+  height: 40%;
+  position: absolute;
+  content: '';
+  display: block;
+  margin-left: -4%;
+  margin-right: -4%;
+  bottom: 0;
+}
+.b-gallery.bgline .content + .subtitle {
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 0;
+  background: #ffffff;
+  color: #55463f;
+  padding-top: 0;
+}
+.b-gallery.bgline .subtitle .number {
+  font-size: 28px;
+  line-height: 32px;
+  display: block;
+}
+.b-gallery--simple {
+  overflow: hidden;
+  display: block;
+}
+.b-gallery__content {
+  position: relative;
+  left: 0;
+}
+.b-gallery__contentWrapper {
+  margin-left: 4%;
+  overflow: hidden;
+  width: 92%;
+}
+.b-gallery__button {
+  height: 100%;
+  position: absolute;
+  min-width: 20px;
+  width: 4%;
+}
+.b-gallery__button div {
+  width: 19px;
+  height: 36px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: block;
+  background-image: url(../images/arrows.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background: #000;
+}
+.b-gallery__button--back {
+  left: 0;
+}
+.b-gallery__button--back div {
+  background-position: 0 -175px;
+  background: #000;
+}
+.b-gallery__button--back:hover div {
+  background-position: 0 -211px;
+}
+.b-gallery__button--next {
+  right: 0;
+}
+.b-gallery__button--next div {
+  background-position: -19px -175px;
+}
+.b-gallery__button--next:hover div {
+  background-position: -19px -211px;
+}
+.b-gallery__item {
+  display: inline-block;
+  float: left;
+  width: 23%;
+  color: #000000;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 5px;
+  /*&:last-of-type{
+      margin-right:0;
+    }
+    &:first-of-type{
+       margin-left:0;
+     }*/
+}
+@media only screen and (max-width: 509px) {
+  .b-gallery__item {
+    width: 49%;
+  }
+}
+.b-gallery__item .title {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.b-gallery__item .content {
+  display: block;
+  position: relative;
+}
+.b-gallery__item .content img {
+  max-width: 100%;
+  width: 100%;
+}
+.b-gallery__item .text {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  left: 0;
+  bottom: 20px;
+  padding: 1px 3px;
+  min-width: 60%;
+  text-align: center;
+}
+.b-gallery__item .text.top {
+  bottom: auto;
+  top: 20px;
+}
+.b-gallery__item .subtitle {
+  display: block;
+  background: #d2b491;
+  text-align: center;
+  padding: 2px 5px;
+  font-size: 14px;
+}
+.b-gallery__item .content + .subtitle {
+  margin-top: 10px;
+}
+.b-contactus__wrapper {
+  background: transparent no-repeat center center;
+  background-attachment: notdefined;
+  background-clip: padding-box;
+  background-size: cover;
+  background-origin: padding-box;
+  display: block;
+  padding: 60px 15px;
+  padding-right: 10%;
+  text-align: right;
+}
+.b-contactus__form {
+  background-color: #3eb046;
+  padding: 30px;
+  color: #ffffff;
+  width: 40%;
+  display: inline-block;
+  text-align: center;
+}
+.b-contactus__form .submit {
+  text-align: center;
+  display: block;
+  margin-top: 40px;
+}
+.b-contactus__form .submit > input {
+  width: 80%;
+  border: 2px solid #ffffff;
+  color: inherit;
+  background: inherit;
+  padding: 3px 10px;
+  -moz-text-shadow: none;
+  -webkit-text-shadow: none;
+  -o-text-shadow: none;
+  text-shadow: none;
+}
+.b-contactus__form .submit > input:hover,
+.b-contactus__form .submit > input:active,
+.b-contactus__form .submit > input:focus {
+  color: #3eb046;
+  background: #ffffff;
+  border: 2px solid;
+}
+.b-contactus__form .submit .ajax-loader {
+  width: auto;
+  height: 30px;
+  vertical-align: top;
+  margin-right: -55px;
+}
+.b-contactus__form .field {
+  display: block;
+  margin-bottom: 10px;
+}
+.b-contactus__form .field input {
+  padding: 7px 15px;
+}
+.b-contactus__form .title {
+  margin-top: 0;
+  font-size: 16px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: inherit;
+}
+@media only screen and (max-width: 900px) {
+  .b-contactus__wrapper {
+    text-align: center;
+    padding: 40px 6%;
+  }
+  .b-contactus__form {
+    width: auto;
+    padding: 6%;
+  }
+}
+@media only screen and (max-width: 509px) {
+  .b-contactus .title {
+    font-size: 15px;
+    line-height: 22px;
+  }
 }
 #headercontainer {
   background: #55463f;

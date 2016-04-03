@@ -1,0 +1,83 @@
+.b-contactus{
+  &__wrapper{
+    background: transparent no-repeat center center;
+    background-attachment: notdefined;
+    background-clip: padding-box;
+    background-size: cover;
+    background-origin: padding-box;
+
+    display: block;
+    padding: 60px 15px;
+    padding-right: 10%;
+    text-align: right;
+  }
+
+  &__form{
+    background-color: @color-contact-bg;
+    padding: 30px;
+    color: @color-contact-text;
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+
+    .submit{
+      text-align: center;
+      display: block;
+      margin-top: 40px;
+
+      > input{
+        width: 80%;
+        border: 2px solid @color-contact-text;
+        color: inherit;
+        background: inherit;
+        padding: 3px 10px;
+        #css3 > .text-shadow(none);
+
+        &:hover, &:active, &:focus{
+          color: @color-contact-bg;
+          background: @color-contact-text;
+          border: 2px solid;
+        }
+      }
+      .ajax-loader{
+        width: auto;
+        height: 30px;
+        vertical-align: top;
+        margin-right: -55px;
+
+      }
+    }
+    .field{
+      display: block;
+      margin-bottom: 10px;
+
+      input{
+        padding: 7px 15px;
+      }
+    }
+    .title{
+      margin-top: 0;
+      font-size: 16px;
+      line-height: 28px;
+      text-transform: uppercase;
+      color: inherit;
+    }
+  }
+
+  @media @tablet{
+    &__wrapper{
+      text-align: center;
+      padding: 40px 6%;
+    }
+    &__form{
+      width: auto;
+      padding: 6%;
+    }
+  }
+  @media @mobile{
+    .title{
+      font-size: 15px;
+      line-height: 22px;
+    }
+  }
+}

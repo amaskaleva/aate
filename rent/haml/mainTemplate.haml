@@ -39,8 +39,8 @@
         %a{:href=>"http://rent.webstudio.com.ru/#primary"}
           Skip to main content
       %div{:id=>"headercontainer"}
-        = Haml::Engine.new(File.read("header/headerMain.haml")).render(parent)
-        = Haml::Engine.new(File.read("header/menuMain.haml")).render(parent)
+        = Haml::Engine.new(File.read("header/headerMain.haml")).render(Object.new)
+        = Haml::Engine.new(File.read("header/menuMain.haml")).render(Object.new)
       %div{:id=>"maincontentcontainer"}
         .site-content.row{:id=>"primary", :role=>"main"}
           = content
@@ -48,3 +48,4 @@
         = Haml::Engine.new(File.read("footer/footerMain.haml")).render
     %script{:type=>"text/javascript", :src=>"./files/small-menu.js"}
     %script{:type=>"text/javascript", :src=>"./files/wp-embed.min.js"}
+    %script{:type=>"text/javascript", :src=>"js/gallery.js"}
